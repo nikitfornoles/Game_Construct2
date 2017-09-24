@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Character_Selection_Event</name>
+    <events>
+        <variable constant="0" name="pointer" sid="462454684245505" static="0" type="number">-1</variable>
+        <event-block sid="841158330494347">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="654451197107589" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="545554506621128" type="characters" />
+                <action id="1" name="Set size" sid="235114147346905" type="arr_clans">
+                    <param id="0" name="Width">3</param>
+                    <param id="1" name="Height">1</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+                <action id="2" name="Set at X" sid="522637367425237" type="arr_clans">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;Fire&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="181158417886354" type="arr_clans">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;Lightning&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="745237278560729" type="arr_clans">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;Ice&quot;</param>
+                </action>
+                <action id="1" name="Set size" sid="407664202920834" type="arr_leaders">
+                    <param id="0" name="Width">3</param>
+                    <param id="1" name="Height">1</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+                <action id="2" name="Set at X" sid="358709258863180" type="arr_leaders">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;Hero&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="295781939661760" type="arr_leaders">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;MiniCrusader&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="519492964556721" type="arr_leaders">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;TuscanKnight&quot;</param>
+                </action>
+                <action id="1" name="Set size" sid="880548561882270" type="arr_exclusive_troops">
+                    <param id="0" name="Width">3</param>
+                    <param id="1" name="Height">1</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+                <action id="2" name="Set at X" sid="569667859776280" type="arr_exclusive_troops">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;Spearman&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="532717679631217" type="arr_exclusive_troops">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;Heroine&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="258439707046308" type="arr_exclusive_troops">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;MiniKnight&quot;</param>
+                </action>
+                <action id="1" name="Set size" sid="122649134618733" type="arr_dragons">
+                    <param id="0" name="Width">3</param>
+                    <param id="1" name="Height">1</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+                <action id="2" name="Set at X" sid="567258668433972" type="arr_dragons">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;WyvernFire&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="402797500655783" type="arr_dragons">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;WyvernLightning&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="604687313166480" type="arr_dragons">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;WyvernIce&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="875825599866232">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="511011963780948" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">characters</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="101463014829886" type="selectedcharacter">
+                    <param id="0" name="Object">selectedcharactercontainer</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-29" name="Move to object" sid="152033208598545" type="selectedcharacter">
+                    <param id="0" name="Where">0</param>
+                    <param id="1" name="Object">selectedcharactercontainer</param>
+                </action>
+                <action id="5" name="Set frame" sid="216311508295482" type="selectedcharacter">
+                    <param id="0" name="Frame number">characters.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="407678187032831" type="characterpreview">
+                    <param id="0" name="Animation">arr_leaders.At(characters.AnimationFrame)</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="832972493901088" type="System">
+                    <param id="0" name="Variable">pointer</param>
+                    <param id="1" name="Value">characters.AnimationFrame</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="831856841027203">
+            <conditions>
+                <condition id="2" name="Is playing" sid="247838764357147" type="characterpreview">
+                    <param id="0" name="Animation">&quot;TuscanKnight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="694891636303783" type="sword">
+                    <param id="0" name="Object">characterpreview</param>
+                    <param id="1" name="Image point (optional)">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="503921569386607">
+            <conditions>
+                <condition id="-22" name="Else" sid="710669603910078" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="437906421911057" type="sword">
+                    <param id="0" name="X">984</param>
+                    <param id="1" name="Y">-96</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582088509993723">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="665540192582789" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btnDone</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="659204174532868" type="Function">
+                    <param id="0" name="Name">&quot;organizeArray&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="219296655060639">
+            <conditions>
+                <condition id="0" name="On function" sid="877094857981772" type="Function">
+                    <param id="0" name="Name">&quot;organizeArray&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="txtClan" sid="268594433986948" static="0" type="text"></variable>
+                <variable constant="0" name="txtLeader" sid="448770110233222" static="0" type="text"></variable>
+                <variable constant="0" name="txtExclusiveTroop" sid="988587296505219" static="0" type="text"></variable>
+                <variable constant="0" name="txtDragon" sid="121578320841662" static="0" type="text"></variable>
+                <event-block sid="796072889609476">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="789558200148767" type="System">
+                            <param id="0" name="Variable">txtClan</param>
+                            <param id="1" name="Value">arr_clans.At(pointer)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="508328545238401" type="System">
+                            <param id="0" name="Variable">txtLeader</param>
+                            <param id="1" name="Value">arr_leaders.At(pointer)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="857805021357211" type="System">
+                            <param id="0" name="Variable">txtExclusiveTroop</param>
+                            <param id="1" name="Value">arr_exclusive_troops.At(pointer)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="229608816680690" type="System">
+                            <param id="0" name="Variable">txtDragon</param>
+                            <param id="1" name="Value">arr_dragons.At(pointer)</param>
+                        </action>
+                        <action id="9" name="Delete" sid="385032814676916" type="arr_clans">
+                            <param id="0" name="Index">pointer</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="9" name="Delete" sid="633399261656507" type="arr_leaders">
+                            <param id="0" name="Index">pointer</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="9" name="Delete" sid="808307480302063" type="arr_exclusive_troops">
+                            <param id="0" name="Index">pointer</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="9" name="Delete" sid="131335257462692" type="arr_dragons">
+                            <param id="0" name="Index">pointer</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="224553449171626" type="arr_clans">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">txtClan</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="993219080005336" type="arr_leaders">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">txtLeader</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="368978017087344" type="arr_exclusive_troops">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">txtExclusiveTroop</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="5" name="Push" sid="756608260550135" type="arr_dragons">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Value">txtDragon</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="336643771763937" type="System">
+                            <param id="0" name="Layout">Layout1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

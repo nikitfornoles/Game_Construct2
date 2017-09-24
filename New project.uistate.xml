@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Character Selection</layout>
+        <layout order="1">Layout1</layout>
+        <layout order="5">Menu</layout>
+        <layout active="1" order="7">Credits</layout>
+        <event-sheet order="2">Event sheet 1</event-sheet>
+        <event-sheet order="3">EventSheet_Layout1</event-sheet>
+        <event-sheet order="4">Menu_Event</event-sheet>
+        <event-sheet order="6">Character_Selection_Event</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="1" name="AllCasts" />
+        <family expanded="0" name="solid" />
+        <family expanded="1" name="CastSources" />
+        <family expanded="1" name="ExclusiveTroops" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/MenuBackground/" />
+        <folder expanded="1" path="animation-folder/IsometricTree/" />
+        <folder expanded="1" path="animation-folder/TuscanKnight/" />
+        <folder expanded="1" path="animation-folder/select_character/" />
+        <folder expanded="1" path="animation-folder/preview/" />
+        <folder expanded="1" path="animation-folder/Archer/" />
+        <folder expanded="1" path="animation-folder/Hero/" />
+        <folder expanded="1" path="animation-folder/MiniCrusader/" />
+        <folder expanded="1" path="animation-folder/Knight/" />
+        <folder expanded="1" path="animation-folder/Spearman/" />
+        <folder expanded="1" path="animation-folder/tmimHeroine/" />
+        <folder expanded="1" path="animation-folder/WyvernLightning/" />
+        <folder expanded="1" path="animation-folder/WyvernIce/" />
+        <folder expanded="1" path="animation-folder/WyvernFire/" />
+        <folder expanded="1" path="animation-folder/characters/" />
+        <folder expanded="1" path="animation-folder/infoBackground/" />
+        <folder expanded="1" path="animation-folder/characterpreview/" />
+        <folder expanded="1" path="animation-folder/selectedcharacter/" />
+        <folder expanded="1" path="animation-folder/selected_character/" />
+        <folder expanded="1" path="animation-folder/selectedcharactercontainer/" />
+        <folder expanded="1" path="animation-folder/sword/" />
+        <folder expanded="1" path="animation-folder/TimberedHouse/" />
+        <folder expanded="1" path="animation-folder/MedievalCart/" />
+        <folder expanded="1" path="animation-folder/LeaderInitPos/" />
+        <folder expanded="1" path="animation-folder/btnDone/" />
+        <folder expanded="1" path="animation-folder/Border/" />
+        <folder expanded="1" path="animation-folder/Villager/" />
+        <folder expanded="1" path="animation-folder/ArcheryRange/" />
+        <folder expanded="1" path="animation-folder/MedievalTavern/" />
+        <folder expanded="1" path="animation-folder/FenceHorizontal/" />
+        <folder expanded="1" path="animation-folder/FenceVertical30/" />
+        <folder expanded="1" path="animation-folder/FenceVertical30Mirror/" />
+        <folder expanded="1" path="animation-folder/Well/" />
+        <folder expanded="1" path="animation-folder/Outpost/" />
+        <folder expanded="1" path="animation-folder/IsometricTree1/" />
+        <folder expanded="1" path="animation-folder/IsometricTree8/" />
+        <folder expanded="1" path="animation-folder/MouseFollower/" />
+        <folder expanded="1" path="animation-folder/DragonContainer/" />
+    </folders-expanded>
+</c2uistate>
