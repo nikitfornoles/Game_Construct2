@@ -1,0 +1,97 @@
+________________________________________________________________________________________________________
+										CHARACTER SPRITES												|
+________________________________________________________________________________________________________|
+AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
+																										|
+ARTWORKS																								|
+Archer			https://opengameart.org/content/archer-bleeds-game-art									|
+Hero			https://opengameart.org/content/hero-bleeds-game-art									|
+Mini-Crusader	https://opengameart.org/content/isometric-mini-crusader									|
+Knight			https://opengameart.org/content/knight-bleeds-game-art									|
+Spearman		https://opengameart.org/content/spearman-bleeds-game-art								|
+tmim Heroine	https://opengameart.org/content/tmim-heroine-bleeds-game-art							|
+Tuscan Knight	https://opengameart.org/content/tuscan-knight-bleeds-game-art-hd						|
+Villager_01		https://opengameart.org/content/villager01-bleeds-game-art								|
+________________________________________________________________________________________________________|
+
+________________________________________________________________________________________________________
+											BUILDINGS													|
+________________________________________________________________________________________________________|
+AUTHOR:	Chris (feudalwars)	https://opengameart.org/users/feudalwars									|									
+																										|
+ARTWORKS																								|
+Archery Range	https://opengameart.org/content/medieval-archery-range-isometric-25d					|
+--------------------------------------------------------------------------------------------------------|
+AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
+																										|
+ARTWORKS																								|
+Medieval Tavern		https://opengameart.org/content/isometric-medieval-tavern							|
+Timbered House		https://opengameart.org/content/timbered-house										|
+________________________________________________________________________________________________________|
+
+________________________________________________________________________________________________________
+												TREES													|
+________________________________________________________________________________________________________|
+AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
+																										|
+ARTWORKS																								|
+Animated Isometric Tree		https://opengameart.org/content/animated-isometric-tree-bleeds-game-art		|
+Tree Collection				https://opengameart.org/content/tree-collection-v26-bleeds-game-art			|
+________________________________________________________________________________________________________|
+
+________________________________________________________________________________________________________
+											UI Elements													|
+________________________________________________________________________________________________________|
+AUTHOR:	Krzysztof (Ravenmore)	https://opengameart.org/users/ravenmore									|
+																										|
+ARTWORKS																								|
+UI Elements			https://opengameart.org/content/fantasy-ui-elements-by-ravenmore					|
+--------------------------------------------------------------------------------------------------------|
+Author: StumpyStrust		https://opengameart.org/users/stumpystrust									|
+																										|
+ARTWORKS																								|
+UI Button			https://opengameart.org/content/ui-button											|
+________________________________________________________________________________________________________|
+
+________________________________________________________________________________________________________
+												PROPS													|
+________________________________________________________________________________________________________|
+AUTHOR:	Lamoot		https://opengameart.org/users/lamoot												|
+																										|
+ARTWORKS																								|
+Low-poly fences		https://opengameart.org/content/low-poly-fences										|
+--------------------------------------------------------------------------------------------------------|
+AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
+																										|
+ARTWORKS																								|
+Medieval Cart Prop		https://opengameart.org/content/medieval-cart-prop								|
+Old Outpost				https://opengameart.org/content/old-outpost-bleeds-game-art-hd					|
+Old Well				https://opengameart.org/content/old-well-bleeds-game-art						|	
+________________________________________________________________________________________________________|
+
+________________________________________________________________________________________________________
+												DRAGONS													|
+________________________________________________________________________________________________________|
+AUTHOR:	Clint Bellanger		https://opengameart.org/users/clint-bellanger								|
+TEXTURES: Justin Nichol																					|
+																										|
+ARTWORKS																								|
+Wyvern Elemental Skins		https://opengameart.org/content/wyvern-elemental-skins						|
+•	Air Wyvern																							|
+•	Water Wyvern																						|
+•	Fire Wyvern																							|
+________________________________________________________________________________________________________|
+
+________________________________________________________________________________________________________
+												TEXTURES												|
+________________________________________________________________________________________________________|
+AUTHOR:	Iwan Gabovitch (qubodup)	https://opengameart.org/users/qubodup								|
+																										|
+ARTWORKS																								|
+White Sand		https://opengameart.org/content/dirty-burnt-and-light-sand								|
+--------------------------------------------------------------------------------------------------------|
+AUTHOR:	athile			https://opengameart.org/users/athile											|
+																										|
+ARTWORKS																								|
+Seamless Grass Texture II	https://opengameart.org/content/seamless-grass-texture-ii					|	
+________________________________________________________________________________________________________|
