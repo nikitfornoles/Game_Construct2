@@ -55,11 +55,11 @@
                 </action>
                 <action id="2" name="Set at X" sid="532717679631217" type="arr_exclusive_troops">
                     <param id="0" name="X">1</param>
-                    <param id="1" name="Value">&quot;Heroine&quot;</param>
+                    <param id="1" name="Value">&quot;MiniKnight&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="258439707046308" type="arr_exclusive_troops">
                     <param id="0" name="X">2</param>
-                    <param id="1" name="Value">&quot;MiniKnight&quot;</param>
+                    <param id="1" name="Value">&quot;tmimHeroine&quot;</param>
                 </action>
                 <action id="1" name="Set size" sid="122649134618733" type="arr_dragons">
                     <param id="0" name="Width">3</param>
