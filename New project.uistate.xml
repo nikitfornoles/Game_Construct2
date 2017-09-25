@@ -11,9 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Character Selection</layout>
-        <layout active="1" order="2">Layout1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout order="1">Layout1</layout>
+        <layout order="5">Menu</layout>
+        <layout active="1" order="7">Credits</layout>
+        <event-sheet order="2">Event sheet 1</event-sheet>
         <event-sheet order="3">EventSheet_Layout1</event-sheet>
+        <event-sheet order="4">Menu_Event</event-sheet>
+        <event-sheet order="6">Character_Selection_Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -24,10 +28,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1">
         <family expanded="1" name="AllCasts" />
         <family expanded="0" name="solid" />
-        <family expanded="1" name="Sources" />
+        <family expanded="1" name="CastSources" />
         <family expanded="1" name="ExclusiveTroops" />
-        <family expanded="1" name="ClanHouses" />
-        <family expanded="1" name="ClanTroopSources" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -75,11 +77,5 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/IsometricTree8/" />
         <folder expanded="1" path="animation-folder/MouseFollower/" />
         <folder expanded="1" path="animation-folder/DragonContainer/" />
-        <folder expanded="1" path="animation-folder/Shrine/" />
-        <folder expanded="1" path="animation-folder/TeleporterCircle/" />
-        <folder expanded="1" path="animation-folder/HouseContainer/" />
-        <folder expanded="1" path="animation-folder/TrainingCenterContainer/" />
-        <folder expanded="1" path="animation-folder/Quarters/" />
-        <folder expanded="1" path="animation-folder/Tower/" />
     </folders-expanded>
 </c2uistate>
