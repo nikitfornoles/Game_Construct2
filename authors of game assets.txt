@@ -22,10 +22,21 @@ AUTHOR:	Chris (feudalwars)	https://opengameart.org/users/feudalwars									|
 ARTWORKS																								|
 Archery Range	https://opengameart.org/content/medieval-archery-range-isometric-25d					|
 --------------------------------------------------------------------------------------------------------|
+AUTHOR:	Gladius.s 		https://opengameart.org/users/gladiuss											|
+																										|
+ARTWORKS																								|
+Shrine					https://opengameart.org/content/shrine-shinto-japan								|
+--------------------------------------------------------------------------------------------------------|
+AUTHOR:	Josef Reichelt (Protomace)		https://opengameart.org/users/protomace 						|
+																										|
+ARTWORKS																								|
+Tower			https://opengameart.org/content/isometric-rendering-setup-for-blender					|
+--------------------------------------------------------------------------------------------------------|
 AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
 																										|
 ARTWORKS																								|
 Medieval Tavern		https://opengameart.org/content/isometric-medieval-tavern							|
+Quarters			https://opengameart.org/content/quarters-bleeds-game-art							|
 Timbered House		https://opengameart.org/content/timbered-house										|
 ________________________________________________________________________________________________________|
 
@@ -61,12 +72,17 @@ AUTHOR:	Lamoot		https://opengameart.org/users/lamoot												|
 ARTWORKS																								|
 Low-poly fences		https://opengameart.org/content/low-poly-fences										|
 --------------------------------------------------------------------------------------------------------|
+AUTHOR:	Clint Bellanger		https://opengameart.org/users/clint-bellanger								|
+																										|
+ARTWORKS																								|
+Teleporter Circle		https://opengameart.org/content/teleporter-circle								|
+--------------------------------------------------------------------------------------------------------|
 AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
 																										|
 ARTWORKS																								|
 Medieval Cart Prop		https://opengameart.org/content/medieval-cart-prop								|
 Old Outpost				https://opengameart.org/content/old-outpost-bleeds-game-art-hd					|
-Old Well				https://opengameart.org/content/old-well-bleeds-game-art						|	
+Old Well				https://opengameart.org/content/old-well-bleeds-game-art						|
 ________________________________________________________________________________________________________|
 
 ________________________________________________________________________________________________________
@@ -93,5 +109,5 @@ White Sand		https://opengameart.org/content/dirty-burnt-and-light-sand								|
 AUTHOR:	athile			https://opengameart.org/users/athile											|
 																										|
 ARTWORKS																								|
-Seamless Grass Texture II	https://opengameart.org/content/seamless-grass-texture-ii					|	
+Seamless Grass Texture II	https://opengameart.org/content/seamless-grass-texture-ii					|
 ________________________________________________________________________________________________________|
