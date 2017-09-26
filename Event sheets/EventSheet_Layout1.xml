@@ -4,10 +4,12 @@
     <name>EventSheet_Layout1</name>
     <events>
         <variable constant="0" name="curr_selectedCast" sid="228623888113068" static="0" type="text"></variable>
-        <variable constant="0" name="clan_limit" sid="416911240851564" static="0" type="number">5</variable>
+        <variable constant="0" name="clan_limit" sid="416911240851564" static="0" type="number">10</variable>
         <variable constant="0" name="fire_count" sid="852114008021573" static="0" type="number">0</variable>
         <variable constant="0" name="ice_count" sid="726604397744183" static="0" type="number">0</variable>
         <variable constant="0" name="lightning_count" sid="523816314664216" static="0" type="number">0</variable>
+        <variable constant="0" name="archer_clan1" sid="711128309238502" static="0" type="number">0</variable>
+        <variable constant="0" name="archer_clan2" sid="138393701415490" static="0" type="number">0</variable>
         <variable constant="0" name="UID2" sid="520686549833945" static="0" type="number">-1</variable>
         <event-block sid="772388441748501">
             <conditions>
@@ -117,6 +119,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <comment>Organize clan houses programmatically</comment>
                 <event-block sid="744891119589851">
                     <conditions>
                         <condition id="-11" name="For Each" sid="294528402922277" type="System">
@@ -145,6 +148,7 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <comment>Organize clan training centers programmatically</comment>
                 <event-block sid="511039655204288">
                     <conditions>
                         <condition id="-11" name="For Each" sid="301184821875344" type="System">
@@ -197,6 +201,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>Update clan member count every second</comment>
         <event-block sid="244611871184526">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="189698622270496" type="System">
@@ -252,7 +257,7 @@
                                                 <condition id="-7" name="Compare instance variable" sid="524567410632443" type="AllCasts">
                                                     <param id="0" name="Instance variable">membertype</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">&quot;peasant&quot;</param>
+                                                    <param id="2" name="Value">&quot;villager&quot;</param>
                                                 </condition>
                                                 <condition id="-7" name="Compare instance variable" sid="270290555197577" type="AllCasts">
                                                     <param id="0" name="Instance variable">membertype</param>
@@ -322,7 +327,7 @@
                                                 <condition id="-7" name="Compare instance variable" sid="533913468472494" type="AllCasts">
                                                     <param id="0" name="Instance variable">membertype</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">&quot;peasant&quot;</param>
+                                                    <param id="2" name="Value">&quot;villager&quot;</param>
                                                 </condition>
                                                 <condition id="-7" name="Compare instance variable" sid="296806690856775" type="AllCasts">
                                                     <param id="0" name="Instance variable">membertype</param>
@@ -392,7 +397,7 @@
                                                 <condition id="-7" name="Compare instance variable" sid="587057323589690" type="AllCasts">
                                                     <param id="0" name="Instance variable">membertype</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">&quot;peasant&quot;</param>
+                                                    <param id="2" name="Value">&quot;villager&quot;</param>
                                                 </condition>
                                                 <condition id="-7" name="Compare instance variable" sid="447548201241852" type="AllCasts">
                                                     <param id="0" name="Instance variable">membertype</param>
@@ -440,6 +445,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>Spawn villager in each of the clan houses while clan size does not exceed clan limit size</comment>
         <event-block sid="760672497613293">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="539194296179871" type="System">
@@ -534,10 +540,6 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                     </actions>
-                </event-block>
-                <event-block sid="277057527416241">
-                    <conditions />
-                    <actions />
                 </event-block>
             </sub-events>
         </event-block>
@@ -921,7 +923,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="892924380714551" title="TRAIN">
+        <event-group description="" sid="892924380714551" title="Train">
             <sub-events>
                 <event-block sid="778029028288357">
                     <conditions>
@@ -1132,6 +1134,116 @@
                                     <param id="1" name="Value">Spearman.name</param>
                                 </action>
                             </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="850093012175161" title="Automate Enemy&apos;s Training Process">
+            <sub-events>
+                <event-block sid="894890756556384">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="450253297054853" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="627283646352816">
+                            <conditions>
+                                <condition id="-11" name="For Each" sid="613349600613654" type="System">
+                                    <param id="0" name="Object">AllCasts</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="746492374678813" type="AllCasts">
+                                    <param id="0" name="Instance variable">clan</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">arr_clans.At(0)</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="519734255581393" type="AllCasts">
+                                    <param id="0" name="Instance variable">membertype</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;villager&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="633230995906115">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="730406002215184" type="AllCasts">
+                                            <param id="0" name="Instance variable">clan</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">arr_clans.At(1)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="951350997281052">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="820729468122611" type="System">
+                                                    <param id="0" name="Variable">archer_clan1</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="344687593369048" type="Function">
+                                                    <param id="0" name="Name">&quot;walkToArcheryRange&quot;</param>
+                                                    <param id="1" name="Parameter {n}">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="571168807801481">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="729592863536478" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="155284310979799" type="Function">
+                                                    <param id="0" name="Name">&quot;walkToClanDefaultTrainingCenter&quot;</param>
+                                                    <param id="1" name="Parameter {n}">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="427186683865957">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="699127403182356" type="AllCasts">
+                                            <param id="0" name="Instance variable">clan</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">arr_clans.At(1)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="550935451551857">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="762060991418077" type="System">
+                                                    <param id="0" name="Variable">archer_clan2</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="138124271061690" type="Function">
+                                                    <param id="0" name="Name">&quot;walkToArcheryRange&quot;</param>
+                                                    <param id="1" name="Parameter {n}">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="919491134364233">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="218105252495969" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="427362518875478" type="Function">
+                                                    <param id="0" name="Name">&quot;walkToClanDefaultTrainingCenter&quot;</param>
+                                                    <param id="1" name="Parameter {n}">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>

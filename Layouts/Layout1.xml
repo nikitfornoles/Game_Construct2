@@ -59,6 +59,13 @@
                     <instance-variables>
                         <clan>Ice</clan>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -643,9 +650,9 @@
                     <instance-variables>
                         <hp>100</hp>
                         <curhp>100</curhp>
-                        <name>Peasant</name>
+                        <name>Villager</name>
                         <clan></clan>
-                        <membertype>peasant</membertype>
+                        <membertype>villager</membertype>
                         <status></status>
                         <direction>Right</direction>
                         <exclusive_troop>false</exclusive_troop>
@@ -1450,11 +1457,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>448.5</x>
-                        <y>518.5</y>
+                        <x>509</x>
+                        <y>529</y>
                         <z>0</z>
-                        <width>82</width>
-                        <height>72</height>
+                        <width>57</width>
+                        <height>47</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1824,6 +1831,13 @@
                     <instance-variables>
                         <clan>Fire</clan>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1849,6 +1863,13 @@
                     <instance-variables>
                         <clan>Lightning</clan>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1874,14 +1895,21 @@
                     <instance-variables>
                         <clan>Fire</clan>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>2864</x>
                         <y>-178</y>
                         <z>0</z>
-                        <width>300</width>
-                        <height>169</height>
+                        <width>350</width>
+                        <height>197</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50222224</hotspotY>

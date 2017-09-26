@@ -1730,13 +1730,13 @@
                     <frame duration="1" hotspotX="0.514045" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Timbered House\rem_0002.png">
                         <image-point name="exit" x="0.853933" y="0.868764" />
                         <collision-poly>
-                            <point x="0.288515" y="0.367009" />
-                            <point x="0.514495" y="0" />
-                            <point x="0.741562" y="0.365914" />
-                            <point x="0.739389" y="0.498363" />
-                            <point x="0.915393" y="0.807046" />
-                            <point x="0.514495" y="0.962482" />
-                            <point x="0.104906" y="0.815803" />
+                            <point x="0.206118" y="0.427746" />
+                            <point x="0.312248" y="0" />
+                            <point x="0.741562" y="0.335545" />
+                            <point x="0.842385" y="0.489686" />
+                            <point x="0.832996" y="0.785354" />
+                            <point x="0.467679" y="0.897406" />
+                            <point x="0.264082" y="0.707343" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1748,13 +1748,13 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697353709536719" speed="5">
                     <frame duration="1" hotspotX="0.502793" hotspotY="0.535849" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Big Objects\Medieval Cart Prop\cart isometric\cart_00000.png">
                         <collision-poly>
-                            <point x="0.0167598" y="0.641509" />
-                            <point x="0.502793" y="0.120755" />
-                            <point x="0.955307" y="0.667925" />
-                            <point x="0.960894" y="0.407547" />
-                            <point x="0.502793" y="0.683019" />
-                            <point x="0.0391061" y="0.415094" />
-                            <point x="0.0391061" y="0.535849" />
+                            <point x="0.251397" y="1" />
+                            <point x="0.754189" y="1" />
+                            <point x="1" y="0.724529" />
+                            <point x="0.865922" y="0" />
+                            <point x="0.709497" y="0.188679" />
+                            <point x="0.128492" y="0" />
+                            <point x="0" y="0.754717" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1943,14 +1943,14 @@
                     <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Medieval Archery Range (Isometric 2.5D)\archery_range.png">
                         <image-point name="exit" x="0.498361" y="0.0045045" />
                         <collision-poly>
-                            <point x="0.208469" y="0.285714" />
-                            <point x="0.498371" y="0.00892857" />
-                            <point x="0.889251" y="0.151786" />
-                            <point x="0.977199" y="0.5" />
-                            <point x="0.840391" y="0.78125" />
-                            <point x="0.498371" y="0.959821" />
-                            <point x="0.185668" y="0.745536" />
-                            <point x="0.019544" y="0.5" />
+                            <point x="0.493715" y="0" />
+                            <point x="0.688535" y="0.209379" />
+                            <point x="0.818759" y="0.0369211" />
+                            <point x="0.998361" y="0.252252" />
+                            <point x="0.985246" y="0.677646" />
+                            <point x="0.52624" y="0.998109" />
+                            <point x="0.0643565" y="0.646437" />
+                            <point x="0.0736423" y="0.378379" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1963,14 +1963,14 @@
                     <frame duration="1" hotspotX="0.586792" hotspotY="0.510978" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Isometric Medieval Tavern\medieval-tavern_10000.png">
                         <image-point name="exit" x="0.633962" y="1.00399" />
                         <collision-poly>
-                            <point x="0.249057" y="0.205589" />
-                            <point x="0.586792" y="0.0658683" />
-                            <point x="0.830189" y="0.305389" />
-                            <point x="0.960377" y="0.510978" />
-                            <point x="0.937736" y="0.830339" />
-                            <point x="0.586792" y="0.976048" />
-                            <point x="0.184906" y="0.884232" />
-                            <point x="0.111321" y="0.510978" />
+                            <point x="0.256604" y="0.165669" />
+                            <point x="0.647169" y="0" />
+                            <point x="0.890566" y="0.305389" />
+                            <point x="0.983018" y="0.431138" />
+                            <point x="0.949057" y="0.918163" />
+                            <point x="0.450943" y="1" />
+                            <point x="0.0150947" y="0.796408" />
+                            <point x="0.103774" y="0.419162" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2077,14 +2077,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="765929478031305" speed="5">
                     <frame duration="1" hotspotX="0.437288" hotspotY="0.494523" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Big Objects\Old Outpost - Bleed&apos;s Game Art (HD)\old_outpost_iso_10000.png">
                         <collision-poly>
-                            <point x="0.145763" y="0.359937" />
-                            <point x="0.433898" y="0.0344288" />
-                            <point x="0.762712" y="0.342723" />
-                            <point x="0.762712" y="0.492958" />
-                            <point x="0.983051" y="0.746479" />
-                            <point x="0.433898" y="0.946792" />
-                            <point x="0.145763" y="0.627543" />
-                            <point x="0.118644" y="0.492958" />
+                            <point x="0.00339013" y="0.241001" />
+                            <point x="0.508474" y="0" />
+                            <point x="0.871187" y="0.208138" />
+                            <point x="0.755932" y="0.273866" />
+                            <point x="0.827119" y="0.821597" />
+                            <point x="0.562712" y="0.959312" />
+                            <point x="0.0847461" y="0.984351" />
+                            <point x="0.111864" y="0.486698" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2177,6 +2177,16 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901818333050130" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500838" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Quarters - Bleed&apos;s Game Art\mhouse.png">
                         <image-point name="exit" x="0.422222" y="0.976549" />
+                        <collision-poly>
+                            <point x="0" y="0.375209" />
+                            <point x="0.561728" y="0" />
+                            <point x="0.713581" y="0.281407" />
+                            <point x="0.97284" y="0.463149" />
+                            <point x="0.995062" y="0.782245" />
+                            <point x="0.687654" y="0.9933" />
+                            <point x="0.3" y="0.910804" />
+                            <point x="0.0395062" y="0.744556" />
+                        </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
@@ -2187,6 +2197,13 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="576270460227209" speed="5">
                     <frame duration="1" hotspotX="0.632" hotspotY="0.488304" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Isometric rendering setup for Blender\Tower_2.png">
                         <image-point name="exit" x="0.68" y="1.00292" />
+                        <collision-poly>
+                            <point x="0.336" y="0.0292398" />
+                            <point x="0.932" y="0.0146199" />
+                            <point x="0.992" y="0.923977" />
+                            <point x="0.648" y="1" />
+                            <point x="0.266" y="0.931287" />
+                        </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
@@ -2197,6 +2214,16 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428991083533698" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.502222" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Shrine, Shinto, Japan\shrine.png">
                         <image-point name="exit" x="0.2775" y="0.906667" />
+                        <collision-poly>
+                            <point x="0.04" y="0.155556" />
+                            <point x="0.38125" y="0.0888889" />
+                            <point x="0.7225" y="0.0222223" />
+                            <point x="0.92" y="0.173333" />
+                            <point x="0.88" y="0.711112" />
+                            <point x="0.45125" y="0.991111" />
+                            <point x="0.309375" y="0.855556" />
+                            <point x="0.075" y="0.875556" />
+                        </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
@@ -2207,6 +2234,16 @@
                 <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637475961641699" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.530612">
                         <image-point name="exit" x="0.5" y="0.5" />
+                        <collision-poly>
+                            <point x="0.0805556" y="0.127551" />
+                            <point x="0.5" y="0" />
+                            <point x="0.883333" y="0.107143" />
+                            <point x="1" y="0.497449" />
+                            <point x="0.902778" y="0.867347" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0888889" y="0.852041" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.530612" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.530612" />
@@ -2267,7 +2304,11 @@
                 <member>MedievalCart</member>
                 <member>MedievalTavern</member>
                 <member>Outpost</member>
+                <member>Quarters</member>
+                <member>Shrine</member>
+                <member>TeleporterCircle</member>
                 <member>TimberedHouse</member>
+                <member>Tower</member>
                 <member>Well</member>
             </members>
             <behaviors>
