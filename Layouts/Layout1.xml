@@ -49,6 +49,31 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="TeleporterCircle" uid="28">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <clan1>Ice</clan1>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3674</x>
+                        <y>-178</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>136</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.53061223</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="LeaderInitPos" uid="25">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -741,8 +766,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <clan></clan>
-                        <id>0</id>
+                        <clan1>Lightning</clan1>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -754,8 +778,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>498</x>
-                        <y>2226</y>
+                        <x>3257</x>
+                        <y>-187</y>
                         <z>0</z>
                         <width>276</width>
                         <height>228</height>
@@ -1385,8 +1409,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <clan></clan>
-                        <id>0</id>
+                        <clan1>Ice</clan1>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1398,8 +1421,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2654</x>
-                        <y>-237</y>
+                        <x>996</x>
+                        <y>2195</y>
                         <z>0</z>
                         <width>334</width>
                         <height>257</height>
@@ -1435,72 +1458,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TimberedHouse" uid="105">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <clan></clan>
-                        <id>2</id>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3403</x>
-                        <y>-207</y>
-                        <z>0</z>
-                        <width>353.076782227</width>
-                        <height>242.784164429</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501328588</hotspotX>
-                        <hotspotY>0.476463825</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TimberedHouse" uid="104">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>1</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <clan></clan>
-                        <id>1</id>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3060</x>
-                        <y>-218</y>
-                        <z>0</z>
-                        <width>309.919464111</width>
-                        <height>270.379608154</height>
-                        <depth>0</depth>
-                        <hotspotX>0.512613535</hotspotX>
-                        <hotspotY>0.502061844</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1619,72 +1576,6 @@
                         <depth>0</depth>
                         <hotspotX>0.501639366</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MedievalTavern" uid="114">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <clan></clan>
-                        <id>1</id>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>879</x>
-                        <y>2246</y>
-                        <z>0</z>
-                        <width>276</width>
-                        <height>228</height>
-                        <depth>0</depth>
-                        <hotspotX>0.586792469</hotspotX>
-                        <hotspotY>0.510978043</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MedievalTavern" uid="115">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <clan></clan>
-                        <id>2</id>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1265</x>
-                        <y>2237</y>
-                        <z>0</z>
-                        <width>276</width>
-                        <height>228</height>
-                        <depth>0</depth>
-                        <hotspotX>0.586792469</hotspotX>
-                        <hotspotY>0.510978043</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1919,6 +1810,81 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Quarters" uid="9">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <clan1>Fire</clan1>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>178</x>
+                        <y>2183</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>221</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500837505</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Tower" uid="15">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <clan1>Lightning</clan1>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>592</x>
+                        <y>2182</y>
+                        <z>0</z>
+                        <width>146</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.632000029</hotspotX>
+                        <hotspotY>0.488304108</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Shrine" uid="22">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <clan1>Fire</clan1>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2864</x>
+                        <y>-178</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>169</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50222224</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

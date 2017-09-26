@@ -1726,9 +1726,9 @@
         <object-type name="TimberedHouse" sid="448226522675770">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375160546178626" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375160546178626" speed="5">
                     <frame duration="1" hotspotX="0.514045" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Timbered House\rem_0002.png">
-                        <image-point name="door" x="0.853933" y="0.868764" />
+                        <image-point name="exit" x="0.853933" y="0.868764" />
                         <collision-poly>
                             <point x="0.288515" y="0.367009" />
                             <point x="0.514495" y="0" />
@@ -1738,12 +1738,6 @@
                             <point x="0.514495" y="0.962482" />
                             <point x="0.104906" y="0.815803" />
                         </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.512614" hotspotY="0.502062" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Timbered House\rem_0015.png">
-                        <image-point name="door" x="0.257316" y="0.953608" />
-                    </frame>
-                    <frame duration="1" hotspotX="0.501329" hotspotY="0.476464" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Timbered House\rem_0003.png">
-                        <image-point name="door" x="0.917626" y="0.796785" />
                     </frame>
                 </animation>
             </animation-folder>
@@ -1965,9 +1959,9 @@
         <object-type name="MedievalTavern" sid="846600518411987">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768988651739483" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768988651739483" speed="5">
                     <frame duration="1" hotspotX="0.586792" hotspotY="0.510978" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Isometric Medieval Tavern\medieval-tavern_10000.png">
-                        <image-point name="exit" x="0.518868" y="0" />
+                        <image-point name="exit" x="0.633962" y="1.00399" />
                         <collision-poly>
                             <point x="0.249057" y="0.205589" />
                             <point x="0.586792" y="0.0658683" />
@@ -1978,12 +1972,6 @@
                             <point x="0.184906" y="0.884232" />
                             <point x="0.111321" y="0.510978" />
                         </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.626984" hotspotY="0.492958" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Isometric Medieval Tavern\medieval-tavern_00000.png">
-                        <image-point name="exit" x="0.298942" y="0.965795" />
-                    </frame>
-                    <frame duration="1" hotspotX="0.455338" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Isometric Medieval Tavern\medieval-tavern_20000.png">
-                        <image-point name="exit" x="1.00218" y="0.933468" />
                     </frame>
                 </animation>
             </animation-folder>
@@ -2183,6 +2171,49 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Quarters" sid="517006357537107">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901818333050130" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500838" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Quarters - Bleed&apos;s Game Art\mhouse.png">
+                        <image-point name="exit" x="0.422222" y="0.976549" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tower" sid="166086016907253">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="576270460227209" speed="5">
+                    <frame duration="1" hotspotX="0.632" hotspotY="0.488304" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Isometric rendering setup for Blender\Tower_2.png">
+                        <image-point name="exit" x="0.68" y="1.00292" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Shrine" sid="797408346786653">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428991083533698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502222" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Shrine, Shinto, Japan\shrine.png">
+                        <image-point name="exit" x="0.2775" y="0.906667" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TeleporterCircle" sid="490624605985355">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637475961641699" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.530612">
+                        <image-point name="exit" x="0.5" y="0.5" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.530612" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.530612" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.530612" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="AllCasts" plugin-id="Sprite" sid="565917036329180">
@@ -2251,8 +2282,6 @@
                 <member>DragonContainer</member>
                 <member>HouseContainer</member>
                 <member>LeaderInitPos</member>
-                <member>MedievalTavern</member>
-                <member>TimberedHouse</member>
                 <member>TrainingCenterContainer</member>
             </members>
             <instance-variables>
@@ -2269,6 +2298,26 @@
             <instance-variables>
                 <instance-variable name="clan1" sid="487365497436222" type="string" />
                 <instance-variable name="name1" sid="956433368815816" type="string" />
+            </instance-variables>
+        </family>
+        <family name="ClanHouses" plugin-id="Sprite" sid="936895004997341">
+            <members>
+                <member>Quarters</member>
+                <member>TimberedHouse</member>
+                <member>Tower</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="clan1" sid="760358789957108" type="string" />
+            </instance-variables>
+        </family>
+        <family name="TroopSources" plugin-id="Sprite" sid="462965868570949">
+            <members>
+                <member>MedievalTavern</member>
+                <member>Shrine</member>
+                <member>TeleporterCircle</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="clan1" sid="739940488745121" type="string" />
             </instance-variables>
         </family>
     </families>
