@@ -1,113 +1,177 @@
-________________________________________________________________________________________________________
-										CHARACTER SPRITES												|
-________________________________________________________________________________________________________|
-AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
-																										|
-ARTWORKS																								|
-Archer			https://opengameart.org/content/archer-bleeds-game-art									|
-Hero			https://opengameart.org/content/hero-bleeds-game-art									|
-Mini-Crusader	https://opengameart.org/content/isometric-mini-crusader									|
-Knight			https://opengameart.org/content/knight-bleeds-game-art									|
-Spearman		https://opengameart.org/content/spearman-bleeds-game-art								|
-tmim Heroine	https://opengameart.org/content/tmim-heroine-bleeds-game-art							|
-Tuscan Knight	https://opengameart.org/content/tuscan-knight-bleeds-game-art-hd						|
-Villager_01		https://opengameart.org/content/villager01-bleeds-game-art								|
-________________________________________________________________________________________________________|
+__________________________________________________________________________________
+								CHARACTER SPRITES
+__________________________________________________________________________________
+AUTHOR:	Remos Turcuman "Bleed"		https://opengameart.org/users/bleed
 
-________________________________________________________________________________________________________
-											BUILDINGS													|
-________________________________________________________________________________________________________|
-AUTHOR:	Chris (feudalwars)	https://opengameart.org/users/feudalwars									|									
-																										|
-ARTWORKS																								|
-Archery Range	https://opengameart.org/content/medieval-archery-range-isometric-25d					|
---------------------------------------------------------------------------------------------------------|
-AUTHOR:	Gladius.s 		https://opengameart.org/users/gladiuss											|
-																										|
-ARTWORKS																								|
-Shrine					https://opengameart.org/content/shrine-shinto-japan								|
---------------------------------------------------------------------------------------------------------|
-AUTHOR:	Josef Reichelt (Protomace)		https://opengameart.org/users/protomace 						|
-																										|
-ARTWORKS																								|
-Tower			https://opengameart.org/content/isometric-rendering-setup-for-blender					|
---------------------------------------------------------------------------------------------------------|
-AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
-																										|
-ARTWORKS																								|
-Medieval Tavern		https://opengameart.org/content/isometric-medieval-tavern							|
-Quarters			https://opengameart.org/content/quarters-bleeds-game-art							|
-Timbered House		https://opengameart.org/content/timbered-house										|
-________________________________________________________________________________________________________|
+Copyright/Attribution Notice: 
+"Bleed - http://remusprites.carbonmade.com/"
 
-________________________________________________________________________________________________________
-												TREES													|
-________________________________________________________________________________________________________|
-AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
-																										|
-ARTWORKS																								|
-Animated Isometric Tree		https://opengameart.org/content/animated-isometric-tree-bleeds-game-art		|
-Tree Collection				https://opengameart.org/content/tree-collection-v26-bleeds-game-art			|
-________________________________________________________________________________________________________|
+ARTWORKS
+•	Archer
+	https://opengameart.org/content/archer-bleeds-game-art
+	Licence: CC BY 3.0
 
-________________________________________________________________________________________________________
-											UI Elements													|
-________________________________________________________________________________________________________|
-AUTHOR:	Krzysztof (Ravenmore)	https://opengameart.org/users/ravenmore									|
-																										|
-ARTWORKS																								|
-UI Elements			https://opengameart.org/content/fantasy-ui-elements-by-ravenmore					|
---------------------------------------------------------------------------------------------------------|
-Author: StumpyStrust		https://opengameart.org/users/stumpystrust									|
-																										|
-ARTWORKS																								|
-UI Button			https://opengameart.org/content/ui-button											|
-________________________________________________________________________________________________________|
+•	Hero
+	https://opengameart.org/content/hero-bleeds-game-art
+	Licence: CC BY 3.0
 
-________________________________________________________________________________________________________
-												PROPS													|
-________________________________________________________________________________________________________|
-AUTHOR:	Lamoot		https://opengameart.org/users/lamoot												|
-																										|
-ARTWORKS																								|
-Low-poly fences		https://opengameart.org/content/low-poly-fences										|
---------------------------------------------------------------------------------------------------------|
-AUTHOR:	Clint Bellanger		https://opengameart.org/users/clint-bellanger								|
-																										|
-ARTWORKS																								|
-Teleporter Circle		https://opengameart.org/content/teleporter-circle								|
---------------------------------------------------------------------------------------------------------|
-AUTHOR:	Remos Turcuman (Bleed)	https://opengameart.org/users/bleed										|
-																										|
-ARTWORKS																								|
-Medieval Cart Prop		https://opengameart.org/content/medieval-cart-prop								|
-Old Outpost				https://opengameart.org/content/old-outpost-bleeds-game-art-hd					|
-Old Well				https://opengameart.org/content/old-well-bleeds-game-art						|
-________________________________________________________________________________________________________|
+•	Mini-Crusader
+	https://opengameart.org/content/isometric-mini-crusader
+	Licence: CC BY 4.0
 
-________________________________________________________________________________________________________
-												DRAGONS													|
-________________________________________________________________________________________________________|
-AUTHOR:	Clint Bellanger		https://opengameart.org/users/clint-bellanger								|
-TEXTURES: Justin Nichol																					|
-																										|
-ARTWORKS																								|
-Wyvern Elemental Skins		https://opengameart.org/content/wyvern-elemental-skins						|
-•	Air Wyvern																							|
-•	Water Wyvern																						|
-•	Fire Wyvern																							|
-________________________________________________________________________________________________________|
+•	Knight
+	https://opengameart.org/content/knight-bleeds-game-art
+	Licence: CC BY 3.0
 
-________________________________________________________________________________________________________
-												TEXTURES												|
-________________________________________________________________________________________________________|
-AUTHOR:	Iwan Gabovitch (qubodup)	https://opengameart.org/users/qubodup								|
-																										|
-ARTWORKS																								|
-White Sand		https://opengameart.org/content/dirty-burnt-and-light-sand								|
---------------------------------------------------------------------------------------------------------|
-AUTHOR:	athile			https://opengameart.org/users/athile											|
-																										|
-ARTWORKS																								|
-Seamless Grass Texture II	https://opengameart.org/content/seamless-grass-texture-ii					|
-________________________________________________________________________________________________________|
+•	Spearman
+	https://opengameart.org/content/spearman-bleeds-game-art
+	Licence: CC BY 3.0
+
+•	tmim Heroine
+	https://opengameart.org/content/tmim-heroine-bleeds-game-art
+	Licence: CC BY 3.0
+
+•	Tuscan Knight
+	https://opengameart.org/content/tuscan-knight-bleeds-game-art-hd
+	Licence: CC BY 3.0
+
+•	Villager_01
+	https://opengameart.org/content/villager01-bleeds-game-art
+	Licence: CC BY 3.0
+__________________________________________________________________________________
+
+__________________________________________________________________________________
+								BUILDINGS
+__________________________________________________________________________________
+AUTHOR:	Chris "feudalwars"		https://opengameart.org/users/feudalwars
+
+ARTWORKS
+•	Archery Range
+	https://opengameart.org/content/medieval-archery-range-isometric-25d
+	Licence: CC0 1.0
+-----------------------------------------------------------------------------------
+AUTHOR:	"Gladius.s"		https://opengameart.org/users/gladiuss
+
+ARTWORKS
+•	Shrine
+	https://opengameart.org/content/shrine-shinto-japan
+	Licence: LGPL 2.1, LGPL 3.0, CC-BY-SA 3.0
+---------------------------------------------------------------------------------
+AUTHOR:	Josef Reichelt "Protomace"		https://opengameart.org/users/protomace
+
+ARTWORKS
+•	Tower
+	https://opengameart.org/content/isometric-rendering-setup-for-blender
+	Licence: CC0 1.0
+----------------------------------------------------------------------------------
+AUTHOR:	Remos Turcuman "Bleed"		https://opengameart.org/users/bleed
+
+ARTWORKS
+•	Medieval Tavern
+	https://opengameart.org/content/isometric-medieval-tavern
+	Licence: CC BY 4.0, CC BY 3.0
+
+•	Quarters
+	https://opengameart.org/content/quarters-bleeds-game-art
+	Licence: CC BY 3.0
+
+•	Timbered House
+	https://opengameart.org/content/timbered-house
+	Licence: CC BY 3.0
+___________________________________________________________________________________
+
+___________________________________________________________________________________
+								TREES
+___________________________________________________________________________________
+AUTHOR:	Remos Turcuman "Bleed"		https://opengameart.org/users/bleed
+
+ARTWORKS
+•	Animated Isometric Tree
+	https://opengameart.org/content/animated-isometric-tree-bleeds-game-art
+	Licence: CC BY 3.0
+
+•	Tree Collection
+	https://opengameart.org/content/tree-collection-v26-bleeds-game-art
+	Licence: CC BY 3.0
+____________________________________________________________________________________
+
+____________________________________________________________________________________
+								UI Elements
+____________________________________________________________________________________
+AUTHOR:	Krzysztof "Ravenmore"		https://opengameart.org/users/ravenmore
+
+ARTWORKS
+•	UI Elements
+	https://opengameart.org/content/fantasy-ui-elements-by-ravenmore
+	Licence: CC BY 3.0
+-----------------------------------------------------------------------------------
+Author: "StumpyStrust"		https://opengameart.org/users/stumpystrust
+
+ARTWORKS
+•	UI Button
+	https://opengameart.org/content/ui-button
+	Licence: CC0 1.0
+___________________________________________________________________________________
+
+___________________________________________________________________________________
+								PROPS
+___________________________________________________________________________________
+AUTHOR:	"Lamoot"		https://opengameart.org/users/lamoot												
+
+ARTWORKS
+•	Low-poly fences
+	https://opengameart.org/content/low-poly-fences
+	Licence: CC BY 3.0
+-----------------------------------------------------------------------------------
+AUTHOR:	Clint Bellanger		https://opengameart.org/users/clint-bellanger
+
+ARTWORKS
+•	Teleporter Circle
+	https://opengameart.org/content/teleporter-circle
+	Licence: CC BY 3.0
+------------------------------------------------------------------------------------
+AUTHOR:	Remos Turcuman "Bleed"		https://opengameart.org/users/bleed
+
+ARTWORKS
+•	Medieval Cart Prop
+	https://opengameart.org/content/medieval-cart-prop
+	Licence: CC BY 4.0
+
+•	Old Outpost
+	https://opengameart.org/content/old-outpost-bleeds-game-art-hd
+	Licence: CC BY 3.0
+
+•	Old Well
+	https://opengameart.org/content/old-well-bleeds-game-art
+	Licence: CC BY 3.0
+___________________________________________________________________________________
+
+___________________________________________________________________________________
+								DRAGONS
+___________________________________________________________________________________
+AUTHOR:	Clint Bellanger		https://opengameart.org/users/clint-bellanger
+TEXTURES by: Justin Nichol
+
+ARTWORKS
+•	Wyvern Elemental Skins
+	https://opengameart.org/content/wyvern-elemental-skins
+	Licence: CC BY-SA 3.0
+___________________________________________________________________________________
+
+___________________________________________________________________________________
+								TEXTURES
+___________________________________________________________________________________
+AUTHOR:	Iwan Gabovitch "qubodup"		https://opengameart.org/users/qubodup
+
+ARTWORKS
+•	White Sand
+	https://opengameart.org/content/dirty-burnt-and-light-sand
+	Licence: CC0 1.0
+-----------------------------------------------------------------------------------
+AUTHOR:	"athile"		https://opengameart.org/users/athile
+
+ARTWORKS
+•	Seamless Grass Texture II
+	https://opengameart.org/content/seamless-grass-texture-ii
+	Licence: CC0 1.0
+___________________________________________________________________________________

@@ -1941,7 +1941,7 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320249657732723" speed="5">
                     <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Medieval Archery Range (Isometric 2.5D)\archery_range.png">
-                        <image-point name="exit" x="0.498361" y="0.0045045" />
+                        <image-point name="exit" x="0.557377" y="1.02252" />
                         <collision-poly>
                             <point x="0.493715" y="0" />
                             <point x="0.688535" y="0.209379" />
@@ -2306,7 +2306,6 @@
                 <member>Outpost</member>
                 <member>Quarters</member>
                 <member>Shrine</member>
-                <member>TeleporterCircle</member>
                 <member>TimberedHouse</member>
                 <member>Tower</member>
                 <member>Well</member>
