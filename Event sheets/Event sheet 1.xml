@@ -82,7 +82,7 @@
                         <condition id="-7" name="Compare instance variable" sid="691261257434791" type="Villager">
                             <param id="0" name="Instance variable">clan</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">MedievalTavern.clan1</param>
+                            <param id="2" name="Value">MedievalTavern.clan</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -98,7 +98,7 @@
                         <event-block sid="114271073268376">
                             <conditions>
                                 <condition id="-7" name="Compare instance variable" sid="863034931507878" type="MedievalTavern">
-                                    <param id="0" name="Instance variable">clan1</param>
+                                    <param id="0" name="Instance variable">clan</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">Function.Param(0)</param>
                                 </condition>
@@ -164,7 +164,7 @@
                                         <event-block sid="409314463160391">
                                             <conditions>
                                                 <condition id="-7" name="Compare instance variable" sid="965185217639769" type="MedievalTavern">
-                                                    <param id="0" name="Instance variable">clan1</param>
+                                                    <param id="0" name="Instance variable">clan</param>
                                                     <param id="1" name="Comparison">0</param>
                                                     <param id="2" name="Value">Function.Param(0)</param>
                                                 </condition>
@@ -212,7 +212,7 @@
                                         <event-block sid="257409903725894">
                                             <conditions>
                                                 <condition id="-7" name="Compare instance variable" sid="987813785009709" type="MedievalTavern">
-                                                    <param id="0" name="Instance variable">clan1</param>
+                                                    <param id="0" name="Instance variable">clan</param>
                                                     <param id="1" name="Comparison">0</param>
                                                     <param id="2" name="Value">Function.Param(0)</param>
                                                 </condition>
@@ -260,7 +260,7 @@
                                         <event-block sid="499169106228148">
                                             <conditions>
                                                 <condition id="-7" name="Compare instance variable" sid="620921257634035" type="MedievalTavern">
-                                                    <param id="0" name="Instance variable">clan1</param>
+                                                    <param id="0" name="Instance variable">clan</param>
                                                     <param id="1" name="Comparison">0</param>
                                                     <param id="2" name="Value">Function.Param(0)</param>
                                                 </condition>

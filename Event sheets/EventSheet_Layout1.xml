@@ -133,7 +133,7 @@
                                 <condition id="-8" name="Compare two values" sid="720903232687185" type="System">
                                     <param id="0" name="First value">HouseContainer.clan</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">ClanHouses.clan1</param>
+                                    <param id="2" name="Second value">ClanHouses.clan</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -161,7 +161,7 @@
                                 <condition id="-8" name="Compare two values" sid="386546068463765" type="System">
                                     <param id="0" name="First value">TrainingCenterContainer.clan</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">TroopSources.clan1</param>
+                                    <param id="2" name="Second value">TroopSources.clan</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -921,48 +921,169 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="778029028288357">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="664097961823054" type="Villager">
-                    <param id="0" name="Object">ArcheryRange</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" sid="943600741375815" type="Villager">
-                    <param id="0" name="Instance variable">clan</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">ArcheryRange.clan</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="735601986256122" type="Villager">
-                    <param id="0" name="Instance variable">status</param>
-                    <param id="1" name="Value">&quot;training&quot;</param>
-                </action>
-                <action id="-9" name="Destroy" sid="555252182748747" type="Villager" />
-                <action id="-16" name="Wait" sid="876500372903195" type="System">
-                    <param id="0" name="Seconds">1</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="284895207989394" type="ArcheryRange">
-                    <param id="0" name="Object">Archer</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">1</param>
-                </action>
-                <action id="-10" name="Set value" sid="360663827143340" type="Archer">
-                    <param id="0" name="Instance variable">clan</param>
-                    <param id="1" name="Value">ArcheryRange.clan</param>
-                </action>
-                <action id="-10" name="Set value" sid="821754887037780" type="Archer">
-                    <param id="0" name="Instance variable">status</param>
-                    <param id="1" name="Value">&quot;active&quot;</param>
-                </action>
-                <action id="-9" name="Set value" sid="133632120171381" type="System">
-                    <param id="0" name="Variable">UID</param>
-                    <param id="1" name="Value">Archer.UID</param>
-                </action>
-                <action id="-9" name="Set value" sid="925806491444289" type="System">
-                    <param id="0" name="Variable">curr_selectedCast</param>
-                    <param id="1" name="Value">Archer.name</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="892924380714551" title="TRAIN">
+            <sub-events>
+                <event-block sid="893014349726827">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="718557179954243" type="Villager">
+                            <param id="0" name="Object">TeleporterCircle</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="722217199695912" type="Villager">
+                            <param id="0" name="Instance variable">clan</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">TeleporterCircle.clan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="922255523973001" type="Villager">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;training&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="636027422674024" type="Villager" />
+                        <action id="-16" name="Wait" sid="334266433307618" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="950168087933725" type="TeleporterCircle">
+                            <param id="0" name="Object">tmimHeroine</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="997627304316322" type="tmimHeroine">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;active&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="106044242991165" type="System">
+                            <param id="0" name="Variable">UID</param>
+                            <param id="1" name="Value">tmimHeroine.UID</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="534008239868580" type="System">
+                            <param id="0" name="Variable">curr_selectedCast</param>
+                            <param id="1" name="Value">tmimHeroine.name</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="484377067190640">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="916950852317306" type="Villager">
+                            <param id="0" name="Object">MedievalTavern</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="390426236470088" type="Villager">
+                            <param id="0" name="Instance variable">clan</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">MedievalTavern.clan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="654116491826096" type="Villager">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;training&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="507439695540901" type="Villager" />
+                        <action id="-16" name="Wait" sid="851298893585552" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="999731942292349" type="MedievalTavern">
+                            <param id="0" name="Object">Knight</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="205156676818299" type="Knight">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;active&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="379776383995276" type="System">
+                            <param id="0" name="Variable">UID</param>
+                            <param id="1" name="Value">Knight.UID</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="641530288306837" type="System">
+                            <param id="0" name="Variable">curr_selectedCast</param>
+                            <param id="1" name="Value">Knight.name</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="406256239562224">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="702517067682094" type="Villager">
+                            <param id="0" name="Object">Shrine</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="656470054807183" type="Villager">
+                            <param id="0" name="Instance variable">clan</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Shrine.clan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="728336104370390" type="Villager">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;training&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="327656252787133" type="Villager" />
+                        <action id="-16" name="Wait" sid="735722849931480" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="596938100280771" type="Shrine">
+                            <param id="0" name="Object">Spearman</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="646825744555823" type="Spearman">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;active&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="120164250594155" type="System">
+                            <param id="0" name="Variable">UID</param>
+                            <param id="1" name="Value">Spearman.UID</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="973644572178627" type="System">
+                            <param id="0" name="Variable">curr_selectedCast</param>
+                            <param id="1" name="Value">Spearman.name</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="778029028288357">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="664097961823054" type="Villager">
+                            <param id="0" name="Object">ArcheryRange</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="943600741375815" type="Villager">
+                            <param id="0" name="Instance variable">clan</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">ArcheryRange.clan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="735601986256122" type="Villager">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;training&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="555252182748747" type="Villager" />
+                        <action id="-16" name="Wait" sid="876500372903195" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="284895207989394" type="ArcheryRange">
+                            <param id="0" name="Object">Archer</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="360663827143340" type="Archer">
+                            <param id="0" name="Instance variable">clan</param>
+                            <param id="1" name="Value">ArcheryRange.clan</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="821754887037780" type="Archer">
+                            <param id="0" name="Instance variable">status</param>
+                            <param id="1" name="Value">&quot;active&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="133632120171381" type="System">
+                            <param id="0" name="Variable">UID</param>
+                            <param id="1" name="Value">Archer.UID</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="925806491444289" type="System">
+                            <param id="0" name="Variable">curr_selectedCast</param>
+                            <param id="1" name="Value">Archer.name</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

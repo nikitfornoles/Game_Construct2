@@ -2307,7 +2307,7 @@
                 <member>Tower</member>
             </members>
             <instance-variables>
-                <instance-variable name="clan1" sid="760358789957108" type="string" />
+                <instance-variable name="clan" sid="760358789957108" type="string" />
             </instance-variables>
         </family>
         <family name="TroopSources" plugin-id="Sprite" sid="462965868570949">
@@ -2317,7 +2317,7 @@
                 <member>TeleporterCircle</member>
             </members>
             <instance-variables>
-                <instance-variable name="clan1" sid="739940488745121" type="string" />
+                <instance-variable name="clan" sid="739940488745121" type="string" />
             </instance-variables>
         </family>
     </families>
