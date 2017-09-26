@@ -2167,6 +2167,22 @@
         <object-type global="1" name="arr_dragons" sid="157891237782845">
             <plugin id="Arr" />
         </object-type>
+        <object-type name="HouseContainer" sid="163966516952837">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="628586730476303" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TrainingCenterContainer" sid="932263788524231">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467558004813967" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="AllCasts" plugin-id="Sprite" sid="565917036329180">
@@ -2233,9 +2249,11 @@
             <members>
                 <member>ArcheryRange</member>
                 <member>DragonContainer</member>
+                <member>HouseContainer</member>
                 <member>LeaderInitPos</member>
                 <member>MedievalTavern</member>
                 <member>TimberedHouse</member>
+                <member>TrainingCenterContainer</member>
             </members>
             <instance-variables>
                 <instance-variable name="clan" sid="695180229244986" type="string" />
