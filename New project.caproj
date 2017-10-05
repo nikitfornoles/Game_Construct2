@@ -2040,15 +2040,6 @@
         <object-type name="txtPeasantUID" sid="806450725241690">
             <plugin id="Text" />
         </object-type>
-        <object-type global="1" name="arr_fire" sid="627095977556284">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type global="1" name="arr_lightning" sid="111826513717243">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type global="1" name="arr_ice" sid="827118466295747">
-            <plugin id="Arr" />
-        </object-type>
         <object-type global="1" name="arr_clans" sid="742667585731269">
             <plugin id="Arr" />
         </object-type>
@@ -2250,6 +2241,9 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.530612" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type global="1" name="reached_clan_limit" sid="179377960275415">
+            <plugin id="Arr" />
         </object-type>
     </object-folder>
     <families>

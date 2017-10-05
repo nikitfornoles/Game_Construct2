@@ -141,7 +141,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -208,7 +208,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -275,7 +275,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -344,7 +344,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -413,7 +413,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -482,7 +482,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -549,7 +549,7 @@
                         </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ShadowCaster">
@@ -2730,30 +2730,16 @@
         </layer>
     </layers>
     <nonworld-instances>
-        <instance type="arr_fire" uid="101">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-        <instance type="arr_lightning" uid="102">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-        <instance type="arr_ice" uid="103">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
         <instance type="arr_exclusive_troops" uid="121">
             <properties>
                 <width>3</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+        <instance type="reached_clan_limit" uid="29">
+            <properties>
+                <width>10</width>
                 <height>1</height>
                 <depth>1</depth>
             </properties>
