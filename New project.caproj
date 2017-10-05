@@ -2358,7 +2358,6 @@
     <layout-folder>
         <layout>Character Selection.xml</layout>
         <layout>Layout1.xml</layout>
-        <layout>Credits.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Character_Selection_Event.xml</event-sheet>
