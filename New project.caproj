@@ -2204,16 +2204,16 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428991083533698" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.502222" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Buildings\Shrine, Shinto, Japan\shrine.png">
-                        <image-point name="exit" x="0.2775" y="0.906667" />
+                        <image-point name="exit" x="0.4525" y="0.982222" />
                         <collision-poly>
                             <point x="0.04" y="0.155556" />
-                            <point x="0.38125" y="0.0888889" />
+                            <point x="0.30625" y="0.08" />
                             <point x="0.7225" y="0.0222223" />
                             <point x="0.92" y="0.173333" />
                             <point x="0.88" y="0.711112" />
                             <point x="0.45125" y="0.991111" />
                             <point x="0.309375" y="0.855556" />
-                            <point x="0.075" y="0.875556" />
+                            <point x="0.065" y="0.924445" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2277,9 +2277,6 @@
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="638080401627551">
                     <behavior id="scrollto" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="896717442921935">
-                    <behavior id="jumpthru" />
                 </behavior-type>
                 <behavior-type name="Solid" sid="188340324388876">
                     <behavior id="solid" />
