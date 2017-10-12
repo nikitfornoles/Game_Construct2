@@ -258,6 +258,7 @@
                                 </action>
                             </actions>
                             <sub-events>
+                                <comment>Automate training of villager if it belongs to the enemy clan</comment>
                                 <event-block sid="460394839280051">
                                     <conditions>
                                         <condition id="-8" name="Compare two values" sid="836518982891888" type="System">
@@ -392,6 +393,7 @@
                                 </action>
                             </actions>
                             <sub-events>
+                                <comment>Automate training of villager if it belongs to the enemy clan</comment>
                                 <event-block sid="461140530484225">
                                     <conditions>
                                         <condition id="-8" name="Compare two values" sid="890693551563786" type="System">
@@ -526,6 +528,7 @@
                                 </action>
                             </actions>
                             <sub-events>
+                                <comment>Automate training of villager if it belongs to the enemy clan</comment>
                                 <event-block sid="533187741281661">
                                     <conditions>
                                         <condition id="-8" name="Compare two values" sid="599399357752336" type="System">
