@@ -1861,6 +1861,146 @@
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.506667" />
                 </animation>
+                <animation framecount="8" loop="0" name="hoverUp" pingpong="0" repeatcount="1" repeatto="0" sid="865988309648095" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.654762" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.648936" />
+                    <frame duration="1" hotspotX="0.496644" hotspotY="0.744828" />
+                    <frame duration="1" hotspotX="0.497512" hotspotY="0.73913" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.746988" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.57265" />
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.556522" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.651685" />
+                </animation>
+                <animation framecount="8" loop="0" name="flyUp" pingpong="0" repeatcount="1" repeatto="0" sid="754611345923145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.589744" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.492063" />
+                    <frame duration="1" hotspotX="0.497696" hotspotY="0.534351" />
+                    <frame duration="1" hotspotX="0.497717" hotspotY="0.455446" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.38843" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.431193" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.61039" />
+                </animation>
+                <animation framecount="8" loop="0" name="stingUp" pingpong="0" repeatcount="1" repeatto="0" sid="490988880647451" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.704082" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.69697" />
+                    <frame duration="1" hotspotX="0.503145" hotspotY="0.618182" />
+                    <frame duration="1" hotspotX="0.502674" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.493827" hotspotY="0.53125" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.586957" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508621" />
+                    <frame duration="1" hotspotX="0.496599" hotspotY="0.521008" />
+                </animation>
+                <animation framecount="8" loop="0" name="breatheUp" pingpong="0" repeatcount="1" repeatto="0" sid="619968277773731" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.448276" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.452174" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.440367" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.450549" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.467742" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.535211" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.554054" />
+                </animation>
+                <animation framecount="8" loop="0" name="ramUp" pingpong="0" repeatcount="1" repeatto="0" sid="753916732823743" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.621622" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.564103" />
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.465116" />
+                    <frame duration="1" hotspotX="0.495726" hotspotY="0.494505" />
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.573171" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.573171" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.594937" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.589744" />
+                </animation>
+                <animation framecount="8" loop="0" name="hitUp" pingpong="0" repeatcount="1" repeatto="0" sid="874823536274444" speed="5">
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.6625" />
+                    <frame duration="1" hotspotX="0.48731" hotspotY="0.556962" />
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.493827" />
+                    <frame duration="1" hotspotX="0.489691" hotspotY="0.336735" />
+                    <frame duration="1" hotspotX="0.47651" hotspotY="0.20202" />
+                    <frame duration="1" hotspotX="0.455556" hotspotY="0.261682" />
+                    <frame duration="1" hotspotX="0.507353" hotspotY="0.415842" />
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.590361" />
+                </animation>
+                <animation framecount="8" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="672561097299404" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.392405" />
+                    <frame duration="1" hotspotX="0.486486" hotspotY="0.114943" />
+                    <frame duration="1" hotspotX="0.447368" hotspotY="0.0315789" />
+                    <frame duration="1" hotspotX="0.493506" hotspotY="-0.0963855" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="-0.158537" />
+                    <frame duration="1" hotspotX="0.509317" hotspotY="-0.276316" />
+                    <frame duration="1" hotspotX="0.47619" hotspotY="-0.55" />
+                    <frame duration="1" hotspotX="0.459854" hotspotY="-0.587302" />
+                </animation>
+                <animation framecount="8" loop="0" name="hoverForward" pingpong="0" repeatcount="1" repeatto="0" sid="563960907771201" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512195" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.552083" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.643411" />
+                    <frame duration="1" hotspotX="0.502488" hotspotY="0.581633" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5875" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.396825" />
+                    <frame duration="1" hotspotX="0.494118" hotspotY="0.396694" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="8" loop="0" name="flyForward" pingpong="0" repeatcount="1" repeatto="0" sid="395223795354143" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.6875" />
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.5625" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.482759" />
+                    <frame duration="1" hotspotX="0.502304" hotspotY="0.508772" />
+                    <frame duration="1" hotspotX="0.502283" hotspotY="0.576271" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.761364" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.741176" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.703704" />
+                </animation>
+                <animation framecount="8" loop="0" name="stingForward" pingpong="0" repeatcount="1" repeatto="0" sid="256030634257651" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.395062" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.4125" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.48" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.533333" />
+                    <frame duration="1" hotspotX="0.506173" hotspotY="0.522222" />
+                    <frame duration="1" hotspotX="0.502857" hotspotY="0.423423" />
+                    <frame duration="1" hotspotX="0.497175" hotspotY="0.415094" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.486842" />
+                </animation>
+                <animation framecount="8" loop="0" name="breatheForward" pingpong="0" repeatcount="1" repeatto="0" sid="428212928848273" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.429752" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.434426" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.457627" />
+                    <frame duration="1" hotspotX="0.502825" hotspotY="0.6" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.615385" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.637363" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.682927" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.719512" />
+                </animation>
+                <animation framecount="8" loop="0" name="ramForward" pingpong="0" repeatcount="1" repeatto="0" sid="999288066395105" speed="5">
+                    <frame duration="1" hotspotX="0.497238" hotspotY="0.693333" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.630137" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.635135" />
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.635135" />
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.594595" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.594595" />
+                    <frame duration="1" hotspotX="0.49635" hotspotY="0.60274" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.675325" />
+                </animation>
+                <animation framecount="8" loop="0" name="hitForward" pingpong="0" repeatcount="1" repeatto="0" sid="327811599731149" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.636364" />
+                    <frame duration="1" hotspotX="0.51269" hotspotY="0.559524" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.465909" />
+                    <frame duration="1" hotspotX="0.510309" hotspotY="0.266667" />
+                    <frame duration="1" hotspotX="0.52349" hotspotY="0.16129" />
+                    <frame duration="1" hotspotX="0.544444" hotspotY="0.0666667" />
+                    <frame duration="1" hotspotX="0.492647" hotspotY="0.236842" />
+                    <frame duration="1" hotspotX="0.493976" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="8" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="263305702339243" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52381" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.309524" />
+                    <frame duration="1" hotspotX="0.549669" hotspotY="0.106383" />
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.0851064" />
+                    <frame duration="1" hotspotX="0.478261" hotspotY="-0.0103093" />
+                    <frame duration="1" hotspotX="0.490683" hotspotY="-0.188235" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="-0.612903" />
+                    <frame duration="1" hotspotX="0.540146" hotspotY="-0.833333" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="WyvernIce" sid="294589701788715">
@@ -1935,6 +2075,146 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.506667" />
+                </animation>
+                <animation framecount="8" loop="0" name="hoverUp" pingpong="0" repeatcount="1" repeatto="0" sid="453308641732448" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.535714" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.542553" />
+                    <frame duration="1" hotspotX="0.496644" hotspotY="0.675862" />
+                    <frame duration="1" hotspotX="0.497512" hotspotY="0.652174" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.626506" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.487179" />
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.469565" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.539326" />
+                </animation>
+                <animation framecount="8" loop="0" name="flyUp" pingpong="0" repeatcount="1" repeatto="0" sid="371377356116340" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.461538" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.402299" />
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.412698" />
+                    <frame duration="1" hotspotX="0.497696" hotspotY="0.458015" />
+                    <frame duration="1" hotspotX="0.497717" hotspotY="0.356436" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.305785" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.33945" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.480519" />
+                </animation>
+                <animation framecount="8" loop="0" name="stingUp" pingpong="0" repeatcount="1" repeatto="0" sid="176898367788749" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.602041" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.59" />
+                    <frame duration="1" hotspotX="0.503145" hotspotY="0.527273" />
+                    <frame duration="1" hotspotX="0.502674" hotspotY="0.420635" />
+                    <frame duration="1" hotspotX="0.493827" hotspotY="0.427083" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.478261" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.422414" />
+                    <frame duration="1" hotspotX="0.496599" hotspotY="0.436975" />
+                </animation>
+                <animation framecount="8" loop="0" name="breatheUp" pingpong="0" repeatcount="1" repeatto="0" sid="862426750552804" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.362069" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.365217" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.348624" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.340659" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.306452" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.354839" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.394366" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.418919" />
+                </animation>
+                <animation framecount="8" loop="0" name="ramUp" pingpong="0" repeatcount="1" repeatto="0" sid="766320636583759" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.486486" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.435897" />
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.348837" />
+                    <frame duration="1" hotspotX="0.495726" hotspotY="0.384615" />
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.451219" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.45679" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.468354" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.461538" />
+                </animation>
+                <animation framecount="8" loop="0" name="hitUp" pingpong="0" repeatcount="1" repeatto="0" sid="116975866312574" speed="5">
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.5375" />
+                    <frame duration="1" hotspotX="0.484694" hotspotY="0.43038" />
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.37037" />
+                    <frame duration="1" hotspotX="0.489691" hotspotY="0.232323" />
+                    <frame duration="1" hotspotX="0.47651" hotspotY="0.10101" />
+                    <frame duration="1" hotspotX="0.455556" hotspotY="0.168224" />
+                    <frame duration="1" hotspotX="0.507353" hotspotY="0.316832" />
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.46988" />
+                </animation>
+                <animation framecount="8" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="520549462293490" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.265823" />
+                    <frame duration="1" hotspotX="0.486486" hotspotY="0" />
+                    <frame duration="1" hotspotX="0.447368" hotspotY="-0.0736842" />
+                    <frame duration="1" hotspotX="0.493506" hotspotY="-0.216867" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="-0.280488" />
+                    <frame duration="1" hotspotX="0.509317" hotspotY="-0.407895" />
+                    <frame duration="1" hotspotX="0.47619" hotspotY="-0.716667" />
+                    <frame duration="1" hotspotX="0.459854" hotspotY="-0.746032" />
+                </animation>
+                <animation framecount="8" loop="0" name="hoverForward" pingpong="0" repeatcount="1" repeatto="0" sid="285766648456561" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.634146" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.65625" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.72093" />
+                    <frame duration="1" hotspotX="0.504951" hotspotY="0.683673" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.7125" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                    <frame duration="1" hotspotX="0.494118" hotspotY="0.479339" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.613636" />
+                </animation>
+                <animation framecount="8" loop="0" name="flyForward" pingpong="0" repeatcount="1" repeatto="0" sid="825514030181988" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.810127" />
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.71875" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.655172" />
+                    <frame duration="1" hotspotX="0.502304" hotspotY="0.678571" />
+                    <frame duration="1" hotspotX="0.502283" hotspotY="0.745763" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.875" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.858824" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.82716" />
+                </animation>
+                <animation framecount="8" loop="0" name="stingForward" pingpong="0" repeatcount="1" repeatto="0" sid="419360018035273" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5375" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.613333" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.666667" />
+                    <frame duration="1" hotspotX="0.506173" hotspotY="0.633333" />
+                    <frame duration="1" hotspotX="0.502857" hotspotY="0.513514" />
+                    <frame duration="1" hotspotX="0.497175" hotspotY="0.509434" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.618421" />
+                </animation>
+                <animation framecount="8" loop="0" name="breatheForward" pingpong="0" repeatcount="1" repeatto="0" sid="727028886220033" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512397" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516393" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.542373" />
+                    <frame duration="1" hotspotX="0.502825" hotspotY="0.711111" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.725275" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.73913" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.804878" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.841463" />
+                </animation>
+                <animation framecount="8" loop="0" name="ramForward" pingpong="0" repeatcount="1" repeatto="0" sid="305568755600408" speed="5">
+                    <frame duration="1" hotspotX="0.497238" hotspotY="0.826667" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.767123" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.77027" />
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.77027" />
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.72973" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.72973" />
+                    <frame duration="1" hotspotX="0.49635" hotspotY="0.739726" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.805195" />
+                </animation>
+                <animation framecount="8" loop="0" name="hitForward" pingpong="0" repeatcount="1" repeatto="0" sid="549768358058493" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.766234" />
+                    <frame duration="1" hotspotX="0.51269" hotspotY="0.678571" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.579545" />
+                    <frame duration="1" hotspotX="0.510309" hotspotY="0.4" />
+                    <frame duration="1" hotspotX="0.52349" hotspotY="0.268817" />
+                    <frame duration="1" hotspotX="0.544444" hotspotY="0.2" />
+                    <frame duration="1" hotspotX="0.492647" hotspotY="0.368421" />
+                    <frame duration="1" hotspotX="0.493976" hotspotY="0.641026" />
+                </animation>
+                <animation framecount="8" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="624483516156346" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.642857" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.428571" />
+                    <frame duration="1" hotspotX="0.549669" hotspotY="0.212766" />
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.191489" />
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.0927835" />
+                    <frame duration="1" hotspotX="0.490683" hotspotY="-0.0833333" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="-0.451613" />
+                    <frame duration="1" hotspotX="0.540146" hotspotY="-0.648148" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2011,8 +2291,145 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506667" />
                 </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="546974068943005" speed="5">
+                <animation framecount="8" loop="0" name="hoverUp" pingpong="0" repeatcount="1" repeatto="0" sid="546974068943005" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.607143" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.602151" />
+                    <frame duration="1" hotspotX="0.489933" hotspotY="0.309917" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.353712" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.698795" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.538462" />
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.521739" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.606742" />
+                </animation>
+                <animation framecount="8" loop="0" name="flyUp" pingpong="0" repeatcount="1" repeatto="0" sid="148561394819379" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.538462" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.471264" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.460317" />
+                    <frame duration="1" hotspotX="0.497696" hotspotY="0.503817" />
+                    <frame duration="1" hotspotX="0.497717" hotspotY="0.415842" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.355372" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.394495" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.558442" />
+                </animation>
+                <animation framecount="8" loop="0" name="stringUp" pingpong="0" repeatcount="1" repeatto="0" sid="540721965651719" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.663265" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.656566" />
+                    <frame duration="1" hotspotX="0.503145" hotspotY="0.581818" />
+                    <frame duration="1" hotspotX="0.502674" hotspotY="0.468254" />
+                    <frame duration="1" hotspotX="0.493827" hotspotY="0.489583" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.543478" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.474138" />
+                    <frame duration="1" hotspotX="0.496599" hotspotY="0.487395" />
+                </animation>
+                <animation framecount="8" loop="0" name="breatheUp" pingpong="0" repeatcount="1" repeatto="0" sid="821740117377434" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.413793" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.417391" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.40367" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.406593" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.409836" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.451613" />
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.478873" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="8" loop="0" name="ramUp" pingpong="0" repeatcount="1" repeatto="0" sid="114268944058640" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.567568" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                    <frame duration="1" hotspotX="0.473684" hotspotY="0.418605" />
+                    <frame duration="1" hotspotX="0.495726" hotspotY="0.450549" />
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.52439" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.530864" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.544304" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.538462" />
+                </animation>
+                <animation framecount="8" loop="0" name="hitUp" pingpong="0" repeatcount="1" repeatto="0" sid="646467567095058" speed="5">
+                    <frame duration="1" hotspotX="0.497143" hotspotY="0.6125" />
+                    <frame duration="1" hotspotX="0.48731" hotspotY="0.506329" />
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.444444" />
+                    <frame duration="1" hotspotX="0.489691" hotspotY="0.295918" />
+                    <frame duration="1" hotspotX="0.47651" hotspotY="0.161616" />
+                    <frame duration="1" hotspotX="0.455556" hotspotY="0.224299" />
+                    <frame duration="1" hotspotX="0.507353" hotspotY="0.376238" />
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.542169" />
+                </animation>
+                <animation framecount="8" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="782858346069162" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.341772" />
+                    <frame duration="1" hotspotX="0.486486" hotspotY="0.0689655" />
+                    <frame duration="1" hotspotX="0.447368" hotspotY="-0.0105263" />
+                    <frame duration="1" hotspotX="0.493506" hotspotY="-0.144578" />
+                    <frame duration="1" hotspotX="0.51875" hotspotY="-0.207317" />
+                    <frame duration="1" hotspotX="0.509317" hotspotY="-0.328947" />
+                    <frame duration="1" hotspotX="0.47619" hotspotY="-0.616667" />
+                    <frame duration="1" hotspotX="0.459854" hotspotY="-0.650794" />
+                </animation>
+                <animation framecount="8" loop="0" name="hoverForward" pingpong="0" repeatcount="1" repeatto="0" sid="692081632503372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.695122" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.708333" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.75969" />
+                    <frame duration="1" hotspotX="0.502488" hotspotY="0.734694" />
+                    <frame duration="1" hotspotX="0.497537" hotspotY="0.775" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515873" />
+                    <frame duration="1" hotspotX="0.494118" hotspotY="0.520661" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.670455" />
+                </animation>
+                <animation framecount="8" loop="0" name="flyForward" pingpong="0" repeatcount="1" repeatto="0" sid="243356752147992" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.875" />
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.796875" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.741379" />
+                    <frame duration="1" hotspotX="0.502304" hotspotY="0.77193" />
+                    <frame duration="1" hotspotX="0.502283" hotspotY="0.830508" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.931818" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.917647" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.888889" />
+                </animation>
+                <animation framecount="8" loop="0" name="stringForward" pingpong="0" repeatcount="1" repeatto="0" sid="288706464359412" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.580247" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.6" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.68" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.733333" />
+                    <frame duration="1" hotspotX="0.506173" hotspotY="0.688889" />
+                    <frame duration="1" hotspotX="0.502857" hotspotY="0.558559" />
+                    <frame duration="1" hotspotX="0.497175" hotspotY="0.556604" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.684211" />
+                </animation>
+                <animation framecount="8" loop="0" name="breatheForward" pingpong="0" repeatcount="1" repeatto="0" sid="840673116338506" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.553719" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.557377" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.584746" />
+                    <frame duration="1" hotspotX="0.502825" hotspotY="0.766667" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.78022" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.802198" />
+                    <frame duration="1" hotspotX="0.502857" hotspotY="0.865854" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.902439" />
+                </animation>
+                <animation framecount="8" loop="0" name="ramForward" pingpong="0" repeatcount="1" repeatto="0" sid="253077998621063" speed="5">
+                    <frame duration="1" hotspotX="0.497238" hotspotY="0.893333" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.835616" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.837838" />
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.837838" />
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.794521" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.797297" />
+                    <frame duration="1" hotspotX="0.49635" hotspotY="0.808219" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.87013" />
+                </animation>
+                <animation framecount="8" loop="0" name="hitForward" pingpong="0" repeatcount="1" repeatto="0" sid="269653692784609" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.831169" />
+                    <frame duration="1" hotspotX="0.51269" hotspotY="0.738095" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.636364" />
+                    <frame duration="1" hotspotX="0.510309" hotspotY="0.466667" />
+                    <frame duration="1" hotspotX="0.52349" hotspotY="0.322581" />
+                    <frame duration="1" hotspotX="0.544444" hotspotY="0.266667" />
+                    <frame duration="1" hotspotX="0.492647" hotspotY="0.434211" />
+                    <frame duration="1" hotspotX="0.493976" hotspotY="0.705128" />
+                </animation>
+                <animation framecount="8" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="861731076946890" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.702381" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.488095" />
+                    <frame duration="1" hotspotX="0.549669" hotspotY="0.265957" />
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.244681" />
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.14433" />
+                    <frame duration="1" hotspotX="0.490683" hotspotY="-0.0117647" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="-0.370968" />
+                    <frame duration="1" hotspotX="0.540146" hotspotY="-0.555556" />
                 </animation>
             </animation-folder>
         </object-type>
