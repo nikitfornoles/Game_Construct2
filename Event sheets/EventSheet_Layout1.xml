@@ -3,8 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EventSheet_Layout1</name>
     <events>
-        <variable constant="0" name="curr_position_x" sid="647580326730168" static="0" type="number">-1</variable>
-        <variable constant="0" name="curr_position_y" sid="965365351413599" static="0" type="number">-1</variable>
         <variable constant="0" name="enemy_training_fire" sid="115119564746186" static="0" type="number">0</variable>
         <variable constant="0" name="enemy_training_lightning" sid="936893580834857" static="0" type="number">0</variable>
         <variable constant="0" name="enemy_training_ice" sid="713435744438851" static="0" type="number">0</variable>
@@ -16,7 +14,7 @@
         <variable constant="0" name="fire_count" sid="478211976748063" static="0" type="number">0</variable>
         <variable constant="0" name="ice_count" sid="879919039285678" static="0" type="number">0</variable>
         <variable constant="0" name="lightning_count" sid="547348402050921" static="0" type="number">0</variable>
-        <variable constant="0" name="UID2" sid="520686549833945" static="0" type="number">-1</variable>
+        <variable constant="0" name="UID" sid="520686549833945" static="0" type="number">-1</variable>
         <variable constant="0" name="spawn_villager_fireUID" sid="977805344545171" static="0" type="number">-1</variable>
         <variable constant="0" name="spawn_villager_lightningUID" sid="703403367010915" static="0" type="number">-1</variable>
         <variable constant="0" name="grouped" sid="694803552131666" static="0" type="number">0</variable>
@@ -90,6 +88,26 @@
                                     <param id="1" name="Y">LeaderInitPos.Y - (AllCasts.Height/2)</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="661378493315263">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="681360746957370" type="System">
+                                            <param id="0" name="Variable">id</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set mirrored" sid="196865985059449" type="AllCasts">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="557030132648777">
+                            <conditions />
+                            <actions />
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -126,6 +144,26 @@
                                     <param id="1" name="Y">DragonContainer.Y - (DragonContainer.Height/2)</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="684270735552699">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="451998588829018" type="System">
+                                            <param id="0" name="Variable">id</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set mirrored" sid="773333210919445" type="AllCasts">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="693831756717034">
+                            <conditions />
+                            <actions />
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -687,33 +725,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="503894648501859">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="746631576982475" type="System">
-                    <param id="0" name="Interval (seconds)">1.0</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="856484680322119">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="685379630656518" type="AllCasts">
-                            <param id="0" name="Unique ID">UID</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="430622068046714" type="System">
-                            <param id="0" name="Variable">curr_position_x</param>
-                            <param id="1" name="Value">AllCasts.X</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="553954973724360" type="System">
-                            <param id="0" name="Variable">curr_position_y</param>
-                            <param id="1" name="Value">AllCasts.Y</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <comment>Select clan member</comment>
         <event-block sid="328563231694661">
             <conditions>
@@ -1164,9 +1175,6 @@
                                                             <param id="0" name="Instance variable">direction</param>
                                                             <param id="1" name="Value">&quot;Left&quot;</param>
                                                         </action>
-                                                        <action disabled="1" id="-1" name="Set X" sid="421229722315953" type="AllCasts">
-                                                            <param id="0" name="X">AllCasts.X - (dt * 200)</param>
-                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -1203,9 +1211,6 @@
                                                             <param id="0" name="Instance variable">direction</param>
                                                             <param id="1" name="Value">&quot;Right&quot;</param>
                                                         </action>
-                                                        <action disabled="1" id="-1" name="Set X" sid="940186241955243" type="AllCasts">
-                                                            <param id="0" name="X">AllCasts.X + (dt * 200)</param>
-                                                        </action>
                                                     </actions>
                                                 </event-block>
                                             </sub-events>
@@ -1228,9 +1233,6 @@
                                                     <param id="0" name="Instance variable">direction</param>
                                                     <param id="1" name="Value">&quot;Up&quot;</param>
                                                 </action>
-                                                <action disabled="1" id="-2" name="Set Y" sid="163811697889102" type="AllCasts">
-                                                    <param id="0" name="Y">AllCasts.Y - (dt * 200)</param>
-                                                </action>
                                             </actions>
                                         </event-block>
                                         <event-block sid="401791346097433">
@@ -1250,9 +1252,6 @@
                                                 <action id="-10" name="Set value" sid="986192534249571" type="AllCasts">
                                                     <param id="0" name="Instance variable">direction</param>
                                                     <param id="1" name="Value">&quot;Down&quot;</param>
-                                                </action>
-                                                <action disabled="1" id="-2" name="Set Y" sid="269770310340997" type="AllCasts">
-                                                    <param id="0" name="Y">AllCasts.Y + (dt * 200)</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -1332,6 +1331,20 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="321534950741308">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="566512603632841" type="System">
+                                    <param id="0" name="First value">ArcheryRange.clan</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">arr_clans.At(1)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="654028976964553" type="Archer">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
                 <event-block sid="893014349726827">
@@ -1381,6 +1394,20 @@
                                 <action id="-9" name="Set value" sid="534008239868580" type="System">
                                     <param id="0" name="Variable">curr_selectedCast</param>
                                     <param id="1" name="Value">tmimHeroine.name</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="107345667903723">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="751959648726840" type="System">
+                                    <param id="0" name="First value">TeleporterCircle.clan</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">arr_clans.At(1)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="559383750675912" type="tmimHeroine">
+                                    <param id="0" name="State">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1436,6 +1463,20 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="182987144150777">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="589769904934288" type="System">
+                                    <param id="0" name="First value">MedievalTavern.clan</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">arr_clans.At(1)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="648761541031888" type="Knight">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
                 <event-block sid="406256239562224">
@@ -1485,6 +1526,20 @@
                                 <action id="-9" name="Set value" sid="973644572178627" type="System">
                                     <param id="0" name="Variable">curr_selectedCast</param>
                                     <param id="1" name="Value">Spearman.name</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="623600140738457">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="471136131263836" type="System">
+                                    <param id="0" name="First value">Shrine.clan</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">arr_clans.At(1)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="637022573695261" type="Spearman">
+                                    <param id="0" name="State">0</param>
                                 </action>
                             </actions>
                         </event-block>

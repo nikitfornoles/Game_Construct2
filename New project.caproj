@@ -3258,7 +3258,6 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Character_Selection_Event.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>EventSheet_Layout1.xml</event-sheet>
     </event-folder>
     <global-instances>
