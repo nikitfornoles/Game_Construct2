@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1508181609,
+	"version": 1508206720,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -25,8 +25,14 @@
 		"images/spearman-sheet1.png",
 		"images/tmimheroine-sheet0.png",
 		"images/wyvernlightning-sheet0.png",
+		"images/wyvernlightning-sheet1.png",
+		"images/wyvernlightning-sheet2.png",
 		"images/wyvernice-sheet0.png",
+		"images/wyvernice-sheet1.png",
+		"images/wyvernice-sheet2.png",
 		"images/wyvernfire-sheet0.png",
+		"images/wyvernfire-sheet1.png",
+		"images/wyvernfire-sheet2.png",
 		"images/characters-sheet0.png",
 		"images/characters-sheet1.png",
 		"images/infobackground-sheet0.png",

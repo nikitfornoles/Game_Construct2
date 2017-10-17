@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EventSheet_Layout1</name>
     <events>
+        <variable constant="0" name="curr_position_x" sid="647580326730168" static="0" type="number">-1</variable>
+        <variable constant="0" name="curr_position_y" sid="965365351413599" static="0" type="number">-1</variable>
         <variable constant="0" name="enemy_training_fire" sid="115119564746186" static="0" type="number">0</variable>
         <variable constant="0" name="enemy_training_lightning" sid="936893580834857" static="0" type="number">0</variable>
         <variable constant="0" name="enemy_training_ice" sid="713435744438851" static="0" type="number">0</variable>
@@ -17,6 +19,7 @@
         <variable constant="0" name="UID2" sid="520686549833945" static="0" type="number">-1</variable>
         <variable constant="0" name="spawn_villager_fireUID" sid="977805344545171" static="0" type="number">-1</variable>
         <variable constant="0" name="spawn_villager_lightningUID" sid="703403367010915" static="0" type="number">-1</variable>
+        <variable constant="0" name="grouped" sid="694803552131666" static="0" type="number">0</variable>
         <variable constant="0" name="spawn_villager_iceUID" sid="260982494671467" static="0" type="number">-1</variable>
         <event-block sid="772388441748501">
             <conditions>
@@ -684,6 +687,33 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="503894648501859">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="746631576982475" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="856484680322119">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="685379630656518" type="AllCasts">
+                            <param id="0" name="Unique ID">UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="430622068046714" type="System">
+                            <param id="0" name="Variable">curr_position_x</param>
+                            <param id="1" name="Value">AllCasts.X</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="553954973724360" type="System">
+                            <param id="0" name="Variable">curr_position_y</param>
+                            <param id="1" name="Value">AllCasts.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
         <comment>Select clan member</comment>
         <event-block sid="328563231694661">
             <conditions>
@@ -1048,6 +1078,199 @@
                     </sub-events>
                 </event-block>
                 <event-block sid="352224302361646">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="942904443133743" type="Keyboard">
+                            <param id="0" name="Key">71 (G)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="981463688652893" type="System">
+                            <param id="0" name="Variable">grouped</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="148366455664825">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="192244064316512" type="Keyboard">
+                            <param id="0" name="Key">85 (U)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="590830253100251" type="System">
+                            <param id="0" name="Variable">grouped</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="817578300955489">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="575907847278144" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="401229510807936">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="394819345764669" type="System">
+                                    <param id="0" name="Variable">grouped</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="966676362290797">
+                                    <conditions>
+                                        <condition id="-11" name="For Each" sid="584325309213868" type="System">
+                                            <param id="0" name="Object">AllCasts</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="287522693597768" type="AllCasts">
+                                            <param id="0" name="Instance variable">clan</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">arr_clans.At(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="864215465427745">
+                                            <conditions>
+                                                <condition id="2" name="Key is down" sid="340607606256226" type="Keyboard">
+                                                    <param id="0" name="Key">37 (Left arrow)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="727345438345126">
+                                                    <conditions>
+                                                        <condition id="7" inverted="1" name="Is mirrored" sid="504521713336795" type="AllCasts" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="229808546054362" type="AllCasts">
+                                                            <param id="0" name="State">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="107991772561164">
+                                                    <conditions />
+                                                    <actions>
+                                                        <action id="4" name="Set animation" sid="789822085333038" type="AllCasts">
+                                                            <param id="0" name="Animation">&quot;walkRight&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                        <action behavior="8Direction" id="7" name="Simulate control" sid="808196573703792" type="AllCasts">
+                                                            <param id="0" name="Control">0</param>
+                                                        </action>
+                                                        <action id="-10" name="Set value" sid="327281897066236" type="AllCasts">
+                                                            <param id="0" name="Instance variable">direction</param>
+                                                            <param id="1" name="Value">&quot;Left&quot;</param>
+                                                        </action>
+                                                        <action disabled="1" id="-1" name="Set X" sid="421229722315953" type="AllCasts">
+                                                            <param id="0" name="X">AllCasts.X - (dt * 200)</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="840960188573547">
+                                            <conditions>
+                                                <condition id="2" name="Key is down" sid="175339776117522" type="Keyboard">
+                                                    <param id="0" name="Key">39 (Right arrow)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="811344598622086">
+                                                    <conditions>
+                                                        <condition id="7" name="Is mirrored" sid="536171472440177" type="AllCasts" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="989982062643444" type="AllCasts">
+                                                            <param id="0" name="State">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="169951350373886">
+                                                    <conditions />
+                                                    <actions>
+                                                        <action id="4" name="Set animation" sid="888515521096844" type="AllCasts">
+                                                            <param id="0" name="Animation">&quot;walkRight&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                        <action behavior="8Direction" id="7" name="Simulate control" sid="497850758905166" type="AllCasts">
+                                                            <param id="0" name="Control">1</param>
+                                                        </action>
+                                                        <action id="-10" name="Set value" sid="338390282681924" type="AllCasts">
+                                                            <param id="0" name="Instance variable">direction</param>
+                                                            <param id="1" name="Value">&quot;Right&quot;</param>
+                                                        </action>
+                                                        <action disabled="1" id="-1" name="Set X" sid="940186241955243" type="AllCasts">
+                                                            <param id="0" name="X">AllCasts.X + (dt * 200)</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="597830496915875">
+                                            <conditions>
+                                                <condition id="2" name="Key is down" sid="696726459324740" type="Keyboard">
+                                                    <param id="0" name="Key">38 (Up arrow)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="8Direction" id="7" name="Simulate control" sid="215616639298118" type="AllCasts">
+                                                    <param id="0" name="Control">2</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="648010850749461" type="AllCasts">
+                                                    <param id="0" name="Animation">&quot;walkUp&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="909943982301041" type="AllCasts">
+                                                    <param id="0" name="Instance variable">direction</param>
+                                                    <param id="1" name="Value">&quot;Up&quot;</param>
+                                                </action>
+                                                <action disabled="1" id="-2" name="Set Y" sid="163811697889102" type="AllCasts">
+                                                    <param id="0" name="Y">AllCasts.Y - (dt * 200)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="401791346097433">
+                                            <conditions>
+                                                <condition id="2" name="Key is down" sid="462363438628512" type="Keyboard">
+                                                    <param id="0" name="Key">40 (Down arrow)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="8Direction" id="7" name="Simulate control" sid="198940935250067" type="AllCasts">
+                                                    <param id="0" name="Control">3</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="350360493092517" type="AllCasts">
+                                                    <param id="0" name="Animation">&quot;walkForward&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="986192534249571" type="AllCasts">
+                                                    <param id="0" name="Instance variable">direction</param>
+                                                    <param id="1" name="Value">&quot;Down&quot;</param>
+                                                </action>
+                                                <action disabled="1" id="-2" name="Set Y" sid="269770310340997" type="AllCasts">
+                                                    <param id="0" name="Y">AllCasts.Y + (dt * 200)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="847612063841808">
+                                    <conditions />
+                                    <actions />
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="232096770441383">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="504855146026697">
                     <conditions />
                     <actions />
                 </event-block>
@@ -1268,6 +1491,154 @@
                     </sub-events>
                 </event-block>
                 <event-block sid="550091192153141">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="868099804975986" title="Death">
+            <sub-events>
+                <event-block sid="503027125756514">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="125867103030645" type="AllCasts">
+                            <param id="0" name="Instance variable">curhp</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="735361701672861" type="Function">
+                            <param id="0" name="Name">&quot;func_die&quot;</param>
+                            <param id="1" name="Parameter {n}">AllCasts.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="455354015601017">
+                    <conditions>
+                        <condition id="0" name="On function" sid="784917327934681" type="Function">
+                            <param id="0" name="Name">&quot;func_die&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="221402859642883">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="719398856558104" type="AllCasts">
+                                    <param id="0" name="Unique ID">Function.Param(0)</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="977411809154619">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="334665490874312" type="System">
+                                            <param id="0" name="First value">AllCasts.clan</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">&quot;Fire&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="846327590102154" type="System">
+                                            <param id="0" name="Variable">fire_count</param>
+                                            <param id="1" name="Value">fire_count - 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="728954971418770">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="619379488071508" type="System">
+                                            <param id="0" name="First value">AllCasts.clan</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">&quot;Lightning&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="476698441831966" type="System">
+                                            <param id="0" name="Variable">lightning_count</param>
+                                            <param id="1" name="Value">lightning_count - 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="846607053331804">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="272548634241412" type="System">
+                                            <param id="0" name="First value">AllCasts.clan</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">&quot;Ice&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="378927328038169" type="System">
+                                            <param id="0" name="Variable">ice_count</param>
+                                            <param id="1" name="Value">ice_count - 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="711471958168202">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="609176580574498" type="AllCasts">
+                                            <param id="0" name="Instance variable">direction</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;Left&quot;</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="482182226373856" type="AllCasts">
+                                            <param id="0" name="Instance variable">direction</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;Right&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="757275721297246" type="AllCasts">
+                                            <param id="0" name="Animation">&quot;dieRight&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="452933985017909">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="872423512617229" type="AllCasts">
+                                            <param id="0" name="Instance variable">direction</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;Up&quot; </param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="389379436292482" type="AllCasts">
+                                            <param id="0" name="Animation">&quot;dieUp&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="684294658761329">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="481462394565917" type="AllCasts">
+                                            <param id="0" name="Instance variable">direction</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;Down&quot; </param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="857567725790890" type="AllCasts">
+                                            <param id="0" name="Animation">&quot;dieForward&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="358628728818134">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="335384630672235" type="AllCasts" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="280191121606676">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="867098620665957">
                     <conditions />
                     <actions />
                 </event-block>

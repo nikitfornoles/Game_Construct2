@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Character Selection</layout>
-        <layout active="1" order="2">Layout1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
-        <event-sheet order="3">EventSheet_Layout1</event-sheet>
+        <layout order="1">Layout1</layout>
+        <event-sheet order="2">Event sheet 1</event-sheet>
+        <event-sheet active="1" order="3">EventSheet_Layout1</event-sheet>
         <event-sheet order="4">Character_Selection_Event</event-sheet>
     </open-tabs>
     <properties>
@@ -31,9 +31,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="1" name="TroopSources" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

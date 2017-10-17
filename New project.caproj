@@ -21,6 +21,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="shadowcaster" version="1">Shadow Caster</behavior>
@@ -304,7 +305,7 @@
                     <frame duration="1" hotspotX="0.368421" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Attack_02\Tuscan_Attack_02_70016.png" />
                     <frame duration="1" hotspotX="0.454545" hotspotY="0.508671" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Attack_02\Tuscan_Attack_02_70017.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="998126738152419" speed="5">
+                <animation framecount="16" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="998126738152419" speed="5">
                     <frame duration="1" hotspotX="0.538462" hotspotY="0.592179" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_20000.png" />
                     <frame duration="1" hotspotX="0.516129" hotspotY="0.570588" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_20001.png" />
                     <frame duration="1" hotspotX="0.558824" hotspotY="0.54321" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_20002.png" />
@@ -322,7 +323,7 @@
                     <frame duration="1" hotspotX="0.338235" hotspotY="-0.256757" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_20014.png" />
                     <frame duration="1" hotspotX="0.334975" hotspotY="-0.291667" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_20015.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="961870852264440" speed="5">
+                <animation framecount="16" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="961870852264440" speed="5">
                     <frame duration="1" hotspotX="0.533333" hotspotY="0.619883" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_40000.png" />
                     <frame duration="1" hotspotX="0.551282" hotspotY="0.582822" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_40001.png" />
                     <frame duration="1" hotspotX="0.588235" hotspotY="0.522581" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_40002.png" />
@@ -340,7 +341,7 @@
                     <frame duration="1" hotspotX="0.565517" hotspotY="0.174312" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_40014.png" />
                     <frame duration="1" hotspotX="0.565517" hotspotY="0.159664" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_40015.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="767397816316619" speed="5">
+                <animation framecount="16" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="767397816316619" speed="5">
                     <frame duration="1" hotspotX="0.460526" hotspotY="0.587912" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_00000.png" />
                     <frame duration="1" hotspotX="0.448718" hotspotY="0.60355" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_00001.png" />
                     <frame duration="1" hotspotX="0.411765" hotspotY="0.613924" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Tuscan Knight - Bleed&apos;s Game Art (HD)\_iso\Death\Tuscan_Death_00002.png" />
@@ -530,7 +531,7 @@
                     <frame duration="1" hotspotX="0.697674" hotspotY="0.421053" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_attack\Archer_Fire_00014.png" />
                     <frame duration="1" hotspotX="0.615894" hotspotY="0.391753" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_attack\Archer_Fire_00015.png" />
                 </animation>
-                <animation framecount="13" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="807331649532187" speed="5">
+                <animation framecount="13" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="807331649532187" speed="5">
                     <frame duration="1" hotspotX="0.432927" hotspotY="0.581522" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_20000.png" />
                     <frame duration="1" hotspotX="0.307143" hotspotY="0.572973" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_20001.png" />
                     <frame duration="1" hotspotX="0.273504" hotspotY="0.541436" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_20002.png" />
@@ -545,7 +546,7 @@
                     <frame duration="1" hotspotX="0.506667" hotspotY="-0.435484" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_20011.png" />
                     <frame duration="1" hotspotX="0.50885" hotspotY="-0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_20012.png" />
                 </animation>
-                <animation framecount="13" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="746983470529302" speed="5">
+                <animation framecount="13" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="746983470529302" speed="5">
                     <frame duration="1" hotspotX="0.434783" hotspotY="0.55102" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_40000.png" />
                     <frame duration="1" hotspotX="0.488095" hotspotY="0.605128" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_40001.png" />
                     <frame duration="1" hotspotX="0.520661" hotspotY="0.634518" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_40002.png" />
@@ -560,7 +561,7 @@
                     <frame duration="1" hotspotX="0.619469" hotspotY="0.0606061" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_40011.png" />
                     <frame duration="1" hotspotX="0.669811" hotspotY="0.0671642" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_40012.png" />
                 </animation>
-                <animation framecount="13" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="748358347177497" speed="5">
+                <animation framecount="13" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="748358347177497" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.539604" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_00000.png" />
                     <frame duration="1" hotspotX="0.506173" hotspotY="0.538462" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_00001.png" />
                     <frame duration="1" hotspotX="0.475" hotspotY="0.535912" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Archer - Bleed&apos;s Game Art\_death\Archer_Death_00002.png" />
@@ -700,7 +701,7 @@
                     <frame duration="1" hotspotX="0.508197" hotspotY="0.503145" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Block\block_70003.png" />
                     <frame duration="1" hotspotX="0.508475" hotspotY="0.503106" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Block\block_70004.png" />
                 </animation>
-                <animation framecount="8" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="236441051856979" speed="5">
+                <animation framecount="8" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="236441051856979" speed="5">
                     <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_10000.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504505" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_10001.png" />
                     <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_10002.png" />
@@ -710,7 +711,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_10006.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_10007.png" />
                 </animation>
-                <animation framecount="8" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="998402167631267" speed="5">
+                <animation framecount="8" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="998402167631267" speed="5">
                     <frame duration="1" hotspotX="0.509434" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_30000.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504132" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_30001.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504274" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_30002.png" />
@@ -720,7 +721,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_30006.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_30007.png" />
                 </animation>
-                <animation framecount="8" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="648111583393684" speed="5">
+                <animation framecount="8" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="648111583393684" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.503067" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_70000.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_70001.png" />
                     <frame duration="1" hotspotX="0.505747" hotspotY="0.504854" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Hero - Bleed&apos;s Game Art\Death\death_70002.png" />
@@ -954,7 +955,7 @@
                     <frame duration="1" hotspotX="0.521127" hotspotY="0.620253" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\block\crusader_block_00014.png" />
                     <frame duration="1" hotspotX="0.506849" hotspotY="0.617834" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\block\crusader_block_00015.png" />
                 </animation>
-                <animation framecount="9" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="173760847071049" speed="5">
+                <animation framecount="9" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="173760847071049" speed="5">
                     <frame duration="1" hotspotX="0.31068" hotspotY="0.615385" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_20000.png" />
                     <frame duration="1" hotspotX="0.223301" hotspotY="0.597315" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_20001.png" />
                     <frame duration="1" hotspotX="0.175926" hotspotY="0.568345" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_20002.png" />
@@ -965,7 +966,7 @@
                     <frame duration="1" hotspotX="0.165517" hotspotY="0.09" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_20007.png" />
                     <frame duration="1" hotspotX="0.203822" hotspotY="0.0105263" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_20008.png" />
                 </animation>
-                <animation framecount="9" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="563787312788629" speed="5">
+                <animation framecount="9" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="563787312788629" speed="5">
                     <frame duration="1" hotspotX="0.513889" hotspotY="0.648276" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_40000.png" />
                     <frame duration="1" hotspotX="0.52" hotspotY="0.673611" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_40001.png" />
                     <frame duration="1" hotspotX="0.5125" hotspotY="0.702899" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_40002.png" />
@@ -976,7 +977,7 @@
                     <frame duration="1" hotspotX="0.419753" hotspotY="0.520661" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_40007.png" />
                     <frame duration="1" hotspotX="0.405714" hotspotY="0.45045" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_40008.png" />
                 </animation>
-                <animation framecount="9" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="946625000650119" speed="5">
+                <animation framecount="9" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="946625000650119" speed="5">
                     <frame duration="1" hotspotX="0.513889" hotspotY="0.624204" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_00000.png" />
                     <frame duration="1" hotspotX="0.506667" hotspotY="0.592857" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_00001.png" />
                     <frame duration="1" hotspotX="0.5125" hotspotY="0.503817" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Isometric Mini-Crusader\death\crusader_death_00002.png" />
@@ -1138,7 +1139,7 @@
                     <frame duration="1" hotspotX="0.552632" hotspotY="0.422018" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Attack\attack_60008.png" />
                     <frame duration="1" hotspotX="0.52381" hotspotY="0.455446" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Attack\attack_60009.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="622726798284701" speed="5">
+                <animation framecount="16" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="622726798284701" speed="5">
                     <frame duration="1" hotspotX="0.282609" hotspotY="0.66" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_00000.png" />
                     <frame duration="1" hotspotX="0.272727" hotspotY="0.653061" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_00001.png" />
                     <frame duration="1" hotspotX="0.203704" hotspotY="0.645833" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_00002.png" />
@@ -1156,7 +1157,7 @@
                     <frame duration="1" hotspotX="0.135135" hotspotY="0.225806" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_00014.png" />
                     <frame duration="1" hotspotX="0.131579" hotspotY="0.02" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_00015.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="708108842310222" speed="5">
+                <animation framecount="16" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="708108842310222" speed="5">
                     <frame duration="1" hotspotX="0.421053" hotspotY="0.704082" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_20000.png" />
                     <frame duration="1" hotspotX="0.421053" hotspotY="0.697917" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_20001.png" />
                     <frame duration="1" hotspotX="0.432432" hotspotY="0.719626" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_20002.png" />
@@ -1174,7 +1175,7 @@
                     <frame duration="1" hotspotX="0.416667" hotspotY="0.588235" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_20014.png" />
                     <frame duration="1" hotspotX="0.445946" hotspotY="0.507042" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_20015.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="669076727053144" speed="5">
+                <animation framecount="16" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="669076727053144" speed="5">
                     <frame duration="1" hotspotX="0.435897" hotspotY="0.644231" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_60000.png" />
                     <frame duration="1" hotspotX="0.435897" hotspotY="0.636364" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_60001.png" />
                     <frame duration="1" hotspotX="0.435897" hotspotY="0.625" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Knight - Bleed&apos;s Game Art\Knight\Death\death_60002.png" />
@@ -1301,7 +1302,7 @@
                     <frame duration="1" hotspotX="0.0694444" hotspotY="0.585366" />
                     <frame duration="1" hotspotX="-0.108108" hotspotY="0.577236" />
                 </animation>
-                <animation framecount="8" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="996819338882534" speed="5">
+                <animation framecount="8" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="996819338882534" speed="5">
                     <frame duration="1" hotspotX="0.403226" hotspotY="0.631148" />
                     <frame duration="1" hotspotX="0.349593" hotspotY="0.603604" />
                     <frame duration="1" hotspotX="0.341463" hotspotY="0.552381" />
@@ -1311,7 +1312,7 @@
                     <frame duration="1" hotspotX="0.432624" hotspotY="0.262136" />
                     <frame duration="1" hotspotX="0.432624" hotspotY="0.0731707" />
                 </animation>
-                <animation framecount="8" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="578728622702567" speed="5">
+                <animation framecount="8" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="578728622702567" speed="5">
                     <frame duration="1" hotspotX="0.25" hotspotY="0.661157" />
                     <frame duration="1" hotspotX="0.378049" hotspotY="0.571429" />
                     <frame duration="1" hotspotX="0.402062" hotspotY="0.491667" />
@@ -1321,7 +1322,7 @@
                     <frame duration="1" hotspotX="0.427481" hotspotY="0.136364" />
                     <frame duration="1" hotspotX="0.427481" hotspotY="0.0740741" />
                 </animation>
-                <animation framecount="8" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="951552566226777" speed="5">
+                <animation framecount="8" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="951552566226777" speed="5">
                     <frame duration="1" hotspotX="0.3125" hotspotY="0.647541" />
                     <frame duration="1" hotspotX="0.365854" hotspotY="0.616822" />
                     <frame duration="1" hotspotX="0.381443" hotspotY="0.546392" />
@@ -1791,7 +1792,7 @@
         <object-type name="WyvernLightning" sid="984912548673388">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="8" loop="1" name="hoverRight" pingpong="0" repeatcount="1" repeatto="0" sid="597067776762384" speed="5">
+                <animation framecount="8" loop="1" name="idleRight" pingpong="0" repeatcount="1" repeatto="0" sid="597067776762384" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.506494" hotspotY="0.504" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.503067" />
@@ -1801,7 +1802,7 @@
                     <frame duration="1" hotspotX="0.505747" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.507692" hotspotY="0.5" />
                 </animation>
-                <animation framecount="8" loop="1" name="flyRight" pingpong="0" repeatcount="1" repeatto="0" sid="763671558290977" speed="5">
+                <animation framecount="8" loop="1" name="walkRight" pingpong="0" repeatcount="1" repeatto="0" sid="763671558290977" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504673" />
                     <frame duration="1" hotspotX="0.503817" hotspotY="0.504425" />
                     <frame duration="1" hotspotX="0.503401" hotspotY="0.5" />
@@ -1861,7 +1862,7 @@
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.506667" />
                 </animation>
-                <animation framecount="8" loop="0" name="hoverUp" pingpong="0" repeatcount="1" repeatto="0" sid="865988309648095" speed="5">
+                <animation framecount="8" loop="0" name="idleUp" pingpong="0" repeatcount="1" repeatto="0" sid="865988309648095" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.654762" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.648936" />
                     <frame duration="1" hotspotX="0.496644" hotspotY="0.744828" />
@@ -1871,7 +1872,7 @@
                     <frame duration="1" hotspotX="0.505882" hotspotY="0.556522" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.651685" />
                 </animation>
-                <animation framecount="8" loop="0" name="flyUp" pingpong="0" repeatcount="1" repeatto="0" sid="754611345923145" speed="5">
+                <animation framecount="8" loop="0" name="walkUp" pingpong="0" repeatcount="1" repeatto="0" sid="754611345923145" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.589744" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.517241" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.492063" />
@@ -1931,7 +1932,7 @@
                     <frame duration="1" hotspotX="0.47619" hotspotY="-0.55" />
                     <frame duration="1" hotspotX="0.459854" hotspotY="-0.587302" />
                 </animation>
-                <animation framecount="8" loop="0" name="hoverForward" pingpong="0" repeatcount="1" repeatto="0" sid="563960907771201" speed="5">
+                <animation framecount="8" loop="0" name="idleForward" pingpong="0" repeatcount="1" repeatto="0" sid="563960907771201" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.512195" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.552083" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.643411" />
@@ -1941,7 +1942,7 @@
                     <frame duration="1" hotspotX="0.494118" hotspotY="0.396694" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="8" loop="0" name="flyForward" pingpong="0" repeatcount="1" repeatto="0" sid="395223795354143" speed="5">
+                <animation framecount="8" loop="0" name="walkForward" pingpong="0" repeatcount="1" repeatto="0" sid="395223795354143" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.6875" />
                     <frame duration="1" hotspotX="0.502463" hotspotY="0.5625" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.482759" />
@@ -2006,7 +2007,7 @@
         <object-type name="WyvernIce" sid="294589701788715">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="8" loop="1" name="hoverRight" pingpong="0" repeatcount="1" repeatto="0" sid="958876572968307" speed="5">
+                <animation framecount="8" loop="1" name="idleRight" pingpong="0" repeatcount="1" repeatto="0" sid="958876572968307" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.506494" hotspotY="0.504" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.503067" />
@@ -2016,7 +2017,7 @@
                     <frame duration="1" hotspotX="0.505747" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.507692" hotspotY="0.5" />
                 </animation>
-                <animation framecount="8" loop="1" name="flyRight" pingpong="0" repeatcount="1" repeatto="0" sid="382899053583862" speed="5">
+                <animation framecount="8" loop="1" name="walkRight" pingpong="0" repeatcount="1" repeatto="0" sid="382899053583862" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504673" />
                     <frame duration="1" hotspotX="0.503817" hotspotY="0.504425" />
                     <frame duration="1" hotspotX="0.503401" hotspotY="0.5" />
@@ -2076,7 +2077,7 @@
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.504673" hotspotY="0.506667" />
                 </animation>
-                <animation framecount="8" loop="0" name="hoverUp" pingpong="0" repeatcount="1" repeatto="0" sid="453308641732448" speed="5">
+                <animation framecount="8" loop="0" name="idleUp" pingpong="0" repeatcount="1" repeatto="0" sid="453308641732448" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.535714" />
                     <frame duration="1" hotspotX="0.497143" hotspotY="0.542553" />
                     <frame duration="1" hotspotX="0.496644" hotspotY="0.675862" />
@@ -2086,7 +2087,7 @@
                     <frame duration="1" hotspotX="0.505882" hotspotY="0.469565" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.539326" />
                 </animation>
-                <animation framecount="8" loop="0" name="flyUp" pingpong="0" repeatcount="1" repeatto="0" sid="371377356116340" speed="5">
+                <animation framecount="8" loop="0" name="walkUp" pingpong="0" repeatcount="1" repeatto="0" sid="371377356116340" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.461538" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.402299" />
                     <frame duration="1" hotspotX="0.502538" hotspotY="0.412698" />
@@ -2146,7 +2147,7 @@
                     <frame duration="1" hotspotX="0.47619" hotspotY="-0.716667" />
                     <frame duration="1" hotspotX="0.459854" hotspotY="-0.746032" />
                 </animation>
-                <animation framecount="8" loop="0" name="hoverForward" pingpong="0" repeatcount="1" repeatto="0" sid="285766648456561" speed="5">
+                <animation framecount="8" loop="0" name="idleForward" pingpong="0" repeatcount="1" repeatto="0" sid="285766648456561" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.634146" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.65625" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.72093" />
@@ -2156,7 +2157,7 @@
                     <frame duration="1" hotspotX="0.494118" hotspotY="0.479339" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.613636" />
                 </animation>
-                <animation framecount="8" loop="0" name="flyForward" pingpong="0" repeatcount="1" repeatto="0" sid="825514030181988" speed="5">
+                <animation framecount="8" loop="0" name="walkForward" pingpong="0" repeatcount="1" repeatto="0" sid="825514030181988" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.810127" />
                     <frame duration="1" hotspotX="0.502463" hotspotY="0.71875" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.655172" />
@@ -2221,7 +2222,7 @@
         <object-type name="WyvernFire" sid="291424956858023">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="8" loop="1" name="hoverRight" pingpong="0" repeatcount="1" repeatto="0" sid="971936288869094" speed="5">
+                <animation framecount="8" loop="1" name="idleRight" pingpong="0" repeatcount="1" repeatto="0" sid="971936288869094" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.506494" hotspotY="0.504" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.503067" />
@@ -2231,7 +2232,7 @@
                     <frame duration="1" hotspotX="0.505747" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.507692" hotspotY="0.504505" />
                 </animation>
-                <animation framecount="8" loop="1" name="flyRight" pingpong="0" repeatcount="1" repeatto="0" sid="317759539192203" speed="5">
+                <animation framecount="8" loop="1" name="walkRight" pingpong="0" repeatcount="1" repeatto="0" sid="317759539192203" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504673" />
                     <frame duration="1" hotspotX="0.503817" hotspotY="0.504425" />
                     <frame duration="1" hotspotX="0.503401" hotspotY="0.5" />
@@ -2241,7 +2242,7 @@
                     <frame duration="1" hotspotX="0.504" hotspotY="0.50505" />
                     <frame duration="1" hotspotX="0.504" hotspotY="0.504762" />
                 </animation>
-                <animation framecount="8" loop="1" name="stingRight" pingpong="0" repeatcount="1" repeatto="0" sid="876583634659298" speed="5">
+                <animation framecount="8" loop="0" name="stingRight" pingpong="0" repeatcount="1" repeatto="0" sid="876583634659298" speed="5">
                     <frame duration="1" hotspotX="0.503226" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.503145" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504854" />
@@ -2261,7 +2262,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.505495" />
                 </animation>
-                <animation framecount="8" loop="1" name="ramRight" pingpong="0" repeatcount="1" repeatto="0" sid="948603223670623" speed="5">
+                <animation framecount="8" loop="0" name="ramRight" pingpong="0" repeatcount="1" repeatto="0" sid="948603223670623" speed="5">
                     <frame duration="1" hotspotX="0.503876" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -2271,7 +2272,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="8" loop="1" name="hitRight" pingpong="0" repeatcount="1" repeatto="0" sid="849283776285206" speed="5">
+                <animation framecount="8" loop="0" name="hitRight" pingpong="0" repeatcount="1" repeatto="0" sid="849283776285206" speed="5">
                     <frame duration="1" hotspotX="0.504202" hotspotY="0.504065" />
                     <frame duration="1" hotspotX="0.504505" hotspotY="0.504132" />
                     <frame duration="1" hotspotX="0.505376" hotspotY="0.5" />
@@ -2281,7 +2282,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504587" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="8" loop="1" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="632291046743577" speed="5">
+                <animation framecount="8" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="632291046743577" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504425" />
                     <frame duration="1" hotspotX="0.504505" hotspotY="0.504587" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -2291,7 +2292,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506667" />
                 </animation>
-                <animation framecount="8" loop="0" name="hoverUp" pingpong="0" repeatcount="1" repeatto="0" sid="546974068943005" speed="5">
+                <animation framecount="8" loop="1" name="idleUp" pingpong="0" repeatcount="1" repeatto="0" sid="546974068943005" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.607143" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.602151" />
                     <frame duration="1" hotspotX="0.489933" hotspotY="0.309917" />
@@ -2301,7 +2302,7 @@
                     <frame duration="1" hotspotX="0.505882" hotspotY="0.521739" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.606742" />
                 </animation>
-                <animation framecount="8" loop="0" name="flyUp" pingpong="0" repeatcount="1" repeatto="0" sid="148561394819379" speed="5">
+                <animation framecount="8" loop="1" name="walkUp" pingpong="0" repeatcount="1" repeatto="0" sid="148561394819379" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.538462" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.471264" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.460317" />
@@ -2321,7 +2322,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.474138" />
                     <frame duration="1" hotspotX="0.496599" hotspotY="0.487395" />
                 </animation>
-                <animation framecount="8" loop="0" name="breatheUp" pingpong="0" repeatcount="1" repeatto="0" sid="821740117377434" speed="5">
+                <animation framecount="8" loop="1" name="breatheUp" pingpong="0" repeatcount="1" repeatto="0" sid="821740117377434" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.413793" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.417391" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.40367" />
@@ -2361,7 +2362,7 @@
                     <frame duration="1" hotspotX="0.47619" hotspotY="-0.616667" />
                     <frame duration="1" hotspotX="0.459854" hotspotY="-0.650794" />
                 </animation>
-                <animation framecount="8" loop="0" name="hoverForward" pingpong="0" repeatcount="1" repeatto="0" sid="692081632503372" speed="5">
+                <animation framecount="8" loop="1" name="idleForward" pingpong="0" repeatcount="1" repeatto="0" sid="692081632503372" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.695122" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.708333" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.75969" />
@@ -2371,7 +2372,7 @@
                     <frame duration="1" hotspotX="0.494118" hotspotY="0.520661" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.670455" />
                 </animation>
-                <animation framecount="8" loop="0" name="flyForward" pingpong="0" repeatcount="1" repeatto="0" sid="243356752147992" speed="5">
+                <animation framecount="8" loop="1" name="walkForward" pingpong="0" repeatcount="1" repeatto="0" sid="243356752147992" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.875" />
                     <frame duration="1" hotspotX="0.502463" hotspotY="0.796875" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.741379" />
@@ -2391,7 +2392,7 @@
                     <frame duration="1" hotspotX="0.497175" hotspotY="0.556604" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.684211" />
                 </animation>
-                <animation framecount="8" loop="0" name="breatheForward" pingpong="0" repeatcount="1" repeatto="0" sid="840673116338506" speed="5">
+                <animation framecount="8" loop="1" name="breatheForward" pingpong="0" repeatcount="1" repeatto="0" sid="840673116338506" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.553719" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.557377" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.584746" />
@@ -2776,7 +2777,7 @@
                     <frame duration="1" hotspotX="0.45098" hotspotY="0.513514" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Walk\villager_walk_00013.png" />
                     <frame duration="1" hotspotX="0.461538" hotspotY="0.531034" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Walk\villager_walk_00014.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathRight" pingpong="0" repeatcount="1" repeatto="0" sid="504251142985101" speed="5">
+                <animation framecount="16" loop="0" name="dieRight" pingpong="0" repeatcount="1" repeatto="0" sid="504251142985101" speed="5">
                     <frame duration="1" hotspotX="0.333333" hotspotY="0.655405" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_20000.png" />
                     <frame duration="1" hotspotX="0.466667" hotspotY="0.640845" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_20001.png" />
                     <frame duration="1" hotspotX="0.54717" hotspotY="0.619403" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_20002.png" />
@@ -2794,7 +2795,7 @@
                     <frame duration="1" hotspotX="0.343023" hotspotY="-0.22807" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_20014.png" />
                     <frame duration="1" hotspotX="0.343023" hotspotY="-0.206897" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_20015.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathUp" pingpong="0" repeatcount="1" repeatto="0" sid="712823014988188" speed="5">
+                <animation framecount="16" loop="0" name="dieUp" pingpong="0" repeatcount="1" repeatto="0" sid="712823014988188" speed="5">
                     <frame duration="1" hotspotX="0.433333" hotspotY="0.684932" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_40000.png" />
                     <frame duration="1" hotspotX="0.459016" hotspotY="0.636364" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_40001.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.585185" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_40002.png" />
@@ -2812,7 +2813,7 @@
                     <frame duration="1" hotspotX="0.504762" hotspotY="0.257732" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_40014.png" />
                     <frame duration="1" hotspotX="0.504762" hotspotY="0.257732" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_40015.png" />
                 </animation>
-                <animation framecount="16" loop="0" name="deathForward" pingpong="0" repeatcount="1" repeatto="0" sid="426273024224551" speed="5">
+                <animation framecount="16" loop="0" name="dieForward" pingpong="0" repeatcount="1" repeatto="0" sid="426273024224551" speed="5">
                     <frame duration="1" hotspotX="0.466667" hotspotY="0.639456" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_00000.png" />
                     <frame duration="1" hotspotX="0.459016" hotspotY="0.654676" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_00001.png" />
                     <frame duration="1" hotspotX="0.430769" hotspotY="0.642336" original-source="D:\00nikit\000school\2017-2018 (1st Sem)\ICST349 iOS Development\new game assets\Character Sprites\Villager_01 - Bleed&apos;s Game Art\Villager_01\Death\villager_death_00002.png" />
@@ -3179,6 +3180,9 @@
                 </behavior-type>
                 <behavior-type name="ShadowCaster" sid="138085184071197">
                     <behavior id="shadowcaster" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="765308992738676">
+                    <behavior id="LOS" />
                 </behavior-type>
             </behaviors>
         </family>
